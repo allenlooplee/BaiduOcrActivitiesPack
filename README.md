@@ -1,1 +1,1 @@
-# BaiduOcrActivitiesPack
+# Baidu Ocr Activities Pack

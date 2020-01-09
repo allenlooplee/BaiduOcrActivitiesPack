@@ -7,12 +7,12 @@
     <authors>$author$</authors>
     <owners>$author$</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-    <projectUrl>https://integrations.uipath.com/docs/integrating-with-uipath</projectUrl>
+    <licenseUrl>https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/allenlooplee/BaiduOcrActivitiesPack</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/NuGet/Samples/master/PackageIconNuspecExample/icon.png</iconUrl>
     <description>$description$</description>
-    <copyright>2019</copyright>
-    <tags>UiPath</tags>
+    <copyright>2020</copyright>
+    <tags>UiPath Baidu OCR</tags>
     <dependencies>
     </dependencies>
   </metadata>

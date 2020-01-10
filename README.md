@@ -1,6 +1,6 @@
 # 百度文字识别活动包
 
-## 计划
+## 开发计划和当前状态
 
 ## 安装
 
@@ -8,9 +8,9 @@
 
 ## 构建
 
-## 许可
+## 许可协议
 
-本项目根据[MIT许可](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/LICENSE)授权，可作商业用途。
+本项目遵循[MIT许可协议](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/LICENSE)，可作商业用途。
 
 ## 参考
 

@@ -8,7 +8,7 @@
 
 ## 构建
 
-如果你想自行构建或改进，你需要安装以下工具：
+如果你想自行构建或改进代码，你需要安装以下工具：
 1. [Visual Studio 2019](https://visualstudio.microsoft.com/)，安装的时候需要[选中Windows Workflow Foundation](https://docs.microsoft.com/en-us/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer?view=vs-2019#install-windows-workflow-foundation)
 2. [UiPath Activity Creator](https://marketplace.visualstudio.com/items?itemName=UiPathLabs.UiPathActivitySet)
 3. [UiPath Studio](https://www.uipath.com/start-trial)

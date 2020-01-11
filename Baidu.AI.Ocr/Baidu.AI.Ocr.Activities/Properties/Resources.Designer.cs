@@ -22,7 +22,7 @@ namespace Baidu.AI.Ocr.Activities.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resources {
+    internal class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -59,7 +59,25 @@ namespace Baidu.AI.Ocr.Activities.Properties {
                 resourceCulture = value;
             }
         }
-
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baidu OCR Scope.
+        /// </summary>
+        internal static string BaiduOcrScope {
+            get {
+                return ResourceManager.GetString("BaiduOcrScope", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contains and authenticates all Baidu OCR activities..
+        /// </summary>
+        internal static string BaiduOcrScopeDescription {
+            get {
+                return ResourceManager.GetString("BaiduOcrScopeDescription", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Looks up a localized string similar to The first number..
         /// </summary>
@@ -77,44 +95,22 @@ namespace Baidu.AI.Ocr.Activities.Properties {
                 return ResourceManager.GetString("ChildActivityFirstNumberDisplayName", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to The second number..
         /// </summary>
-        internal static string ChildActivitySecondNumberDescription
-        {
-            get
-            {
-                return ResourceManager.GetString("ChildActivitySecondNumberDescription", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to SecondNumber.
-        /// </summary>
-        internal static string ChildActivitySecondNumberDisplayName
-        {
-            get
-            {
-                return ResourceManager.GetString("ChildActivitySecondNumberDisplayName", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to The child activity that goes inside the scope. Enter two numbers to receive their sum..
-        /// </summary>
-        internal static string ChildActivityDescription {
+        internal static string ChildActivitySecondNumberDescription {
             get {
-                return ResourceManager.GetString("ChildActivityDescription", resourceCulture);
+                return ResourceManager.GetString("ChildActivitySecondNumberDescription", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Child Activity.
+        ///   Looks up a localized string similar to SecondNumber.
         /// </summary>
-        internal static string ChildActivityDisplayName {
+        internal static string ChildActivitySecondNumberDisplayName {
             get {
-                return ResourceManager.GetString("ChildActivityDisplayName", resourceCulture);
+                return ResourceManager.GetString("ChildActivitySecondNumberDisplayName", resourceCulture);
             }
         }
         
@@ -146,7 +142,7 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please provide a value for {0}.
+        ///   Looks up a localized string similar to Please provide a value for {0}..
         /// </summary>
         internal static string MetadataValidationError {
             get {
@@ -164,31 +160,30 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Parent Application Scope.
-        /// </summary>
-        internal static string ParentScope {
-            get {
-                return ResourceManager.GetString("ParentScope", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to The scope in which all the child activities go into..
-        /// </summary>
-        internal static string ParentScopeDescription {
-            get {
-                return ResourceManager.GetString("ParentScopeDescription", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to ValidationMessage.
+        ///   Looks up a localized string similar to Activity is only valid inside a Baidu OCR Scope..
         /// </summary>
         internal static string ValidationMessage {
-            get
-            {
+            get {
                 return ResourceManager.GetString("ValidationMessage", resourceCulture);
             }
         }
-}
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a VAT invoice..
+        /// </summary>
+        internal static string VatInvoiceActivityDescription {
+            get {
+                return ResourceManager.GetString("VatInvoiceActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to VAT Invoice Activity.
+        /// </summary>
+        internal static string VatInvoiceActivityDisplayName {
+            get {
+                return ResourceManager.GetString("VatInvoiceActivityDisplayName", resourceCulture);
+            }
+        }
+    }
 }

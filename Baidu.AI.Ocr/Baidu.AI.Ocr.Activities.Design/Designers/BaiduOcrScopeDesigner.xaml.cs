@@ -1,11 +1,11 @@
 ﻿namespace Baidu.AI.Ocr.Activities.Design
 {
     /// <summary>
-    /// Interaction logic for ParentScopeDesigner.xaml
+    /// Interaction logic for BaiduOcrScopeDesigner.xaml
     /// </summary>
-    public partial class ParentScopeDesigner
+    public partial class BaiduOcrScopeDesigner
     {
-        public ParentScopeDesigner()
+        public BaiduOcrScopeDesigner()
         {
             InitializeComponent();
         }

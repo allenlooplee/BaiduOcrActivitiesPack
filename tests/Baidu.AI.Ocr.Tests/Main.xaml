@@ -25,7 +25,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="15">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="30">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -41,34 +41,35 @@
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="476,394" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Name="sum" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <baoa:ParentScope DisplayName="Parent Scope" sap:VirtualizedContainerService.HintSize="434,302" sap2010:WorkflowViewState.IdRef="ParentScope_1">
-      <baoa:ParentScope.Body>
+    <baoa:BaiduOcrScope DisplayName="Baidu OCR Scope" sap:VirtualizedContainerService.HintSize="434,302" sap2010:WorkflowViewState.IdRef="BaiduOcrScope_1">
+      <baoa:BaiduOcrScope.Body>
         <ActivityAction x:TypeArguments="bao:Application">
           <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="bao:Application" Name="ParentScopeApplication" />
+            <DelegateInArgument x:TypeArguments="bao:Application" Name="BaiduOcrScopeApplication" />
           </ActivityAction.Argument>
           <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="272.5,216" sap2010:WorkflowViewState.IdRef="Sequence_2">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="x:Int32" Name="result" />
-            </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <baoa:ChildActivity DisplayName="Child Activity" FirstNumber="1" sap:VirtualizedContainerService.HintSize="230.5,22" sap2010:WorkflowViewState.IdRef="ChildActivity_1" SecondNumber="1" Sum="[result]" />
-            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230.5,62" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[result.ToString]" />
+            <baoa:VatInvoiceActivity DisplayName="VAT Invoice Activity" FirstNumber="1" sap:VirtualizedContainerService.HintSize="230.5,22" sap2010:WorkflowViewState.IdRef="VatInvoiceActivity_1" SecondNumber="2" Sum="[sum]" />
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230.5,62" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[sum.ToString()]" />
           </Sequence>
         </ActivityAction>
-      </baoa:ParentScope.Body>
-    </baoa:ParentScope>
+      </baoa:BaiduOcrScope.Body>
+    </baoa:BaiduOcrScope>
   </Sequence>
 </Activity>

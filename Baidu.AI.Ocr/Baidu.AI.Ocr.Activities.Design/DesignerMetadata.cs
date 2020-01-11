@@ -15,13 +15,13 @@ namespace Baidu.AI.Ocr.Activities.Design
             var categoryAttribute =  new CategoryAttribute($"{Resources.Category}");
 
 
-            builder.AddCustomAttributes(typeof(ParentScope), categoryAttribute);
-            builder.AddCustomAttributes(typeof(ParentScope), new DesignerAttribute(typeof(ParentScopeDesigner)));
-            builder.AddCustomAttributes(typeof(ParentScope), new HelpKeywordAttribute("https://go.uipath.com"));
+            builder.AddCustomAttributes(typeof(BaiduOcrScope), categoryAttribute);
+            builder.AddCustomAttributes(typeof(BaiduOcrScope), new DesignerAttribute(typeof(BaiduOcrScopeDesigner)));
+            builder.AddCustomAttributes(typeof(BaiduOcrScope), new HelpKeywordAttribute("https://go.uipath.com"));
 
-            builder.AddCustomAttributes(typeof(ChildActivity), categoryAttribute);
-            builder.AddCustomAttributes(typeof(ChildActivity), new DesignerAttribute(typeof(ChildActivityDesigner)));
-            builder.AddCustomAttributes(typeof(ChildActivity), new HelpKeywordAttribute("https://go.uipath.com"));
+            builder.AddCustomAttributes(typeof(VatInvoiceActivity), categoryAttribute);
+            builder.AddCustomAttributes(typeof(VatInvoiceActivity), new DesignerAttribute(typeof(VatInvoiceActivityDesigner)));
+            builder.AddCustomAttributes(typeof(VatInvoiceActivity), new HelpKeywordAttribute("https://go.uipath.com"));
 
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }

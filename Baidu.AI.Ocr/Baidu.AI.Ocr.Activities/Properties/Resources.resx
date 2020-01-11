@@ -125,24 +125,24 @@
     <value>Output</value>
     <comment>property group</comment>
   </data>
-  <data name="ParentScope" xml:space="preserve">
-    <value>Parent Scope</value>
+  <data name="BaiduOcrScope" xml:space="preserve">
+    <value>Baidu OCR Scope</value>
     <comment>display name</comment>
   </data>
-  <data name="ParentScopeDescription" xml:space="preserve">
-    <value>Contains and authenticates all child activities.</value>
+  <data name="BaiduOcrScopeDescription" xml:space="preserve">
+    <value>Contains and authenticates all Baidu OCR activities.</value>
     <comment>description</comment>
   </data>
   <data name="MetadataValidationError" xml:space="preserve">
     <value>Please provide a value for {0}.</value>
     <comment>validation error</comment>
   </data>
-  <data name="ChildActivityDescription" xml:space="preserve">
-    <value>Returns the sum of two numbers.</value>
+  <data name="VatInvoiceActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a VAT invoice.</value>
     <comment>description</comment>
   </data>
-  <data name="ChildActivityDisplayName" xml:space="preserve">
-    <value>Child Activity</value>
+  <data name="VatInvoiceActivityDisplayName" xml:space="preserve">
+    <value>VAT Invoice Activity</value>
     <comment>display name</comment>
   </data>
   <data name="ChildActivityFirstNumberDescription" xml:space="preserve">
@@ -162,7 +162,7 @@
     <comment>display name</comment>
   </data>
   <data name="ValidationMessage" xml:space="preserve">
-    <value>Activity is only valid inside a Parent Scope.</value>
+    <value>Activity is only valid inside a Baidu OCR Scope.</value>
     <comment>validation message</comment>
   </data>
   <data name="ChildActivitySecondNumberDescription" xml:space="preserve">

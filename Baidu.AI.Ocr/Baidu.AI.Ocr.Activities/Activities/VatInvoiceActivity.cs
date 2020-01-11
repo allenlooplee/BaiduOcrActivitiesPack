@@ -7,9 +7,9 @@ using UiPath.Shared.Activities;
 
 namespace Baidu.AI.Ocr.Activities
 {
-	[LocalizedDisplayName(nameof(Resources.ChildActivityDisplayName))]
-	[LocalizedDescription(nameof(Resources.ChildActivityDescription))]
-	public class ChildActivity : AsyncTaskCodeActivity
+	[LocalizedDisplayName(nameof(Resources.VatInvoiceActivityDisplayName))]
+	[LocalizedDescription(nameof(Resources.VatInvoiceActivityDescription))]
+	public class VatInvoiceActivity : AsyncTaskCodeActivity
 	{
 		#region Properties
 
@@ -30,9 +30,9 @@ namespace Baidu.AI.Ocr.Activities
 
         #endregion
 
-        public ChildActivity()
+        public VatInvoiceActivity()
         {
-            Constraints.Add(ActivityConstraints.HasParentType<ChildActivity, ParentScope>(Resources.ValidationMessage));
+            Constraints.Add(ActivityConstraints.HasParentType<VatInvoiceActivity, BaiduOcrScope>(Resources.ValidationMessage));
         }
 
         #region Protected Methods
@@ -58,7 +58,7 @@ namespace Baidu.AI.Ocr.Activities
     /// <returns></returns>
     protected override async Task<Action<AsyncCodeActivityContext>> ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
 		{
-            var property = context.DataContext.GetProperties()[ParentScope.ApplicationTag];
+            var property = context.DataContext.GetProperties()[BaiduOcrScope.ApplicationTag];
             var app = property.GetValue(context.DataContext) as Application;
            
             var firstValue = FirstNumber.Get(context);

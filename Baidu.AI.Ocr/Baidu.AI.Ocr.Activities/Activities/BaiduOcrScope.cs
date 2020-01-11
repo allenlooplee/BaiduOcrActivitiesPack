@@ -11,15 +11,15 @@ using UiPath.Shared.Activities;
 namespace Baidu.AI.Ocr.Activities
 {
 
-    [LocalizedDescription(nameof(Resources.ParentScopeDescription))]
-    [LocalizedDisplayName(nameof(Resources.ParentScope))]
-    public class ParentScope : AsyncTaskNativeActivity
+    [LocalizedDescription(nameof(Resources.BaiduOcrScopeDescription))]
+    [LocalizedDisplayName(nameof(Resources.BaiduOcrScope))]
+    public class BaiduOcrScope : AsyncTaskNativeActivity
     {
 		#region Properties
     
         private Application App;
 
-		public const string ApplicationTag = "ParentScopeApplication";
+		public const string ApplicationTag = "BaiduOcrScopeApplication";
 
 		[Browsable(false)]
         public ActivityAction<Application> Body { get; set; }
@@ -29,7 +29,7 @@ namespace Baidu.AI.Ocr.Activities
 
         #region Constructors
 
-        public ParentScope()
+        public BaiduOcrScope()
         {
             Body = new ActivityAction<Application>
             {

@@ -71,7 +71,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <baoa:VatInvoiceActivity DisplayName="VAT Invoice Activity" sap:VirtualizedContainerService.HintSize="230.5,22" sap2010:WorkflowViewState.IdRef="VatInvoiceActivity_1" ImagePath="C:\Users\allenlooplee\Documents\GitHub\BaiduOcrActivitiesPack\tests\Baidu.AI.Ocr.Tests\images\vat_invoice.jpeg" Result="[ocrResult]" />
+            <baoa:VatInvoiceActivity DisplayName="VAT Invoice Activity" sap:VirtualizedContainerService.HintSize="230.5,22" sap2010:WorkflowViewState.IdRef="VatInvoiceActivity_1" ImagePath="images\vat_invoice.jpeg" Result="[ocrResult]" />
             <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230.5,62" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[ocrResult.ToString()]" />
           </Sequence>
         </ActivityAction>

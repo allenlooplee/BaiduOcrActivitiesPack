@@ -145,32 +145,24 @@
     <value>VAT Invoice Activity</value>
     <comment>display name</comment>
   </data>
-  <data name="ChildActivityFirstNumberDescription" xml:space="preserve">
-    <value>The first number.</value>
+  <data name="VatInvoiceActivityResultDescription" xml:space="preserve">
+    <value>The result of the recognition in the form of JSON.</value>
     <comment>description</comment>
   </data>
-  <data name="ChildActivityFirstNumberDisplayName" xml:space="preserve">
-    <value>FirstNumber</value>
-    <comment>display name</comment>
-  </data>
-  <data name="ChildActivitySumDescription" xml:space="preserve">
-    <value>The sum of the two input numbers.</value>
-    <comment>description</comment>
-  </data>
-  <data name="ChildActivitySumDisplayName" xml:space="preserve">
-    <value>Sum</value>
+  <data name="VatInvoiceActivityResultDisplayName" xml:space="preserve">
+    <value>Result</value>
     <comment>display name</comment>
   </data>
   <data name="ValidationMessage" xml:space="preserve">
     <value>Activity is only valid inside a Baidu OCR Scope.</value>
     <comment>validation message</comment>
   </data>
-  <data name="ChildActivitySecondNumberDescription" xml:space="preserve">
-    <value>The second number.</value>
+  <data name="VatInvoiceActivityImagePathDescription" xml:space="preserve">
+    <value>The file path to the image for recognition.</value>
     <comment>description</comment>
   </data>
-  <data name="ChildActivitySecondNumberDisplayName" xml:space="preserve">
-    <value>SecondNumber</value>
+  <data name="VatInvoiceActivityImagePathDisplayName" xml:space="preserve">
+    <value>ImagePath</value>
     <comment>property name</comment>
   </data>
 </root>

@@ -79,60 +79,6 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The first number..
-        /// </summary>
-        internal static string ChildActivityFirstNumberDescription {
-            get {
-                return ResourceManager.GetString("ChildActivityFirstNumberDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to FirstNumber.
-        /// </summary>
-        internal static string ChildActivityFirstNumberDisplayName {
-            get {
-                return ResourceManager.GetString("ChildActivityFirstNumberDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The second number..
-        /// </summary>
-        internal static string ChildActivitySecondNumberDescription {
-            get {
-                return ResourceManager.GetString("ChildActivitySecondNumberDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to SecondNumber.
-        /// </summary>
-        internal static string ChildActivitySecondNumberDisplayName {
-            get {
-                return ResourceManager.GetString("ChildActivitySecondNumberDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The sum of the two input numbers..
-        /// </summary>
-        internal static string ChildActivitySumDescription {
-            get {
-                return ResourceManager.GetString("ChildActivitySumDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sum.
-        /// </summary>
-        internal static string ChildActivitySumDisplayName {
-            get {
-                return ResourceManager.GetString("ChildActivitySumDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Input.
         /// </summary>
         internal static string Input {
@@ -183,6 +129,42 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         internal static string VatInvoiceActivityDisplayName {
             get {
                 return ResourceManager.GetString("VatInvoiceActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The file path to the image for recognition..
+        /// </summary>
+        internal static string VatInvoiceActivityImagePathDescription {
+            get {
+                return ResourceManager.GetString("VatInvoiceActivityImagePathDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ImagePath.
+        /// </summary>
+        internal static string VatInvoiceActivityImagePathDisplayName {
+            get {
+                return ResourceManager.GetString("VatInvoiceActivityImagePathDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The result of the recognition in the form of JSON..
+        /// </summary>
+        internal static string VatInvoiceActivityResultDescription {
+            get {
+                return ResourceManager.GetString("VatInvoiceActivityResultDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Result.
+        /// </summary>
+        internal static string VatInvoiceActivityResultDisplayName {
+            get {
+                return ResourceManager.GetString("VatInvoiceActivityResultDisplayName", resourceCulture);
             }
         }
     }

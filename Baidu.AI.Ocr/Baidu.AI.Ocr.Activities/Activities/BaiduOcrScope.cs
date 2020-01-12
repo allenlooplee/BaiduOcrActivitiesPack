@@ -24,6 +24,12 @@ namespace Baidu.AI.Ocr.Activities
 		[Browsable(false)]
         public ActivityAction<Application> Body { get; set; }
 
+        [LocalizedCategory(nameof(Resources.Input))]
+        public InArgument<string> ApiKey { get; set; }
+
+        [LocalizedCategory(nameof(Resources.Input))]
+        public InArgument<string> SecretKey { get; set; }
+
         #endregion
 
 
@@ -45,13 +51,18 @@ namespace Baidu.AI.Ocr.Activities
 
         protected override void CacheMetadata(NativeActivityMetadata metadata)
         {
+            if (ApiKey == null) metadata.AddValidationError(string.Format(Resources.MetadataValidationError, nameof(ApiKey)));
+            if (SecretKey == null) metadata.AddValidationError(string.Format(Resources.MetadataValidationError, nameof(SecretKey)));
+
             base.CacheMetadata(metadata);
         }
 
         protected override async Task<Action<NativeActivityContext>> ExecuteAsync(NativeActivityContext context, CancellationToken cancellationToken)
         {
             // Initialize Application
-            App = new  Application();
+            var apiKey = ApiKey.Get(context);
+            var secretKey = SecretKey.Get(context);
+            App = new  Application(apiKey, secretKey);
 
             // Schedule the child activities in the scope's body to run and make the client available to them
             if (Body != null)

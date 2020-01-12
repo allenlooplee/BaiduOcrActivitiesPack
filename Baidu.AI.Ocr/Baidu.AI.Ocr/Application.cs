@@ -6,17 +6,21 @@ namespace Baidu.AI.Ocr
     /// </summary>
     public class Application
     {
-
         #region Constructors
 
         // Creates a new, blank Application
         public Application() { }
 
-        //Make the sum of 2 values
-        public int Sum(int firstValue, int secondValue)
+        public Application(string apiKey, string secretKey)
         {
-            return firstValue + secondValue;
+            BaiduOcrClient = new Aip.Ocr.Ocr(apiKey, secretKey);
         }
+
+        #endregion
+
+        #region Public Properties
+
+        public Baidu.Aip.Ocr.Ocr BaiduOcrClient { get; }
 
         #endregion
     }

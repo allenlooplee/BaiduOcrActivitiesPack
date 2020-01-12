@@ -1,76 +1,21 @@
 ﻿using System;
 using System.Activities;
+using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using Baidu.AI.Ocr.Activities.Properties;
+using Newtonsoft.Json.Linq;
 using UiPath.Shared.Activities;
 
 namespace Baidu.AI.Ocr.Activities
 {
-	[LocalizedDisplayName(nameof(Resources.VatInvoiceActivityDisplayName))]
-	[LocalizedDescription(nameof(Resources.VatInvoiceActivityDescription))]
-	public class VatInvoiceActivity : AsyncTaskCodeActivity
-	{
-		#region Properties
-
-		[LocalizedDisplayName(nameof(Resources.ChildActivityFirstNumberDisplayName))]
-		[LocalizedDescription(nameof(Resources.ChildActivityFirstNumberDescription))]
-		[LocalizedCategory(nameof(Resources.Input))]
-		public InArgument<int> FirstNumber { get; set; }
-
-        [LocalizedDisplayName(nameof(Resources.ChildActivitySecondNumberDisplayName))]
-        [LocalizedDescription(nameof(Resources.ChildActivitySecondNumberDescription))]
-        [LocalizedCategory(nameof(Resources.Input))]
-        public InArgument<int> SecondNumber { get; set; }
-
-        [LocalizedDisplayName(nameof(Resources.ChildActivitySumDisplayName))]
-		[LocalizedDescription(nameof(Resources.ChildActivitySumDescription))]
-		[LocalizedCategory(nameof(Resources.Output))]
-		public OutArgument<int> Sum { get; set; }
-
-        #endregion
-
-        public VatInvoiceActivity()
+    [LocalizedDisplayName(nameof(Resources.VatInvoiceActivityDisplayName))]
+    [LocalizedDescription(nameof(Resources.VatInvoiceActivityDescription))]
+    public class VatInvoiceActivity : BaiduOcrActivityBase
+    {
+        protected override Task<JObject> InvokeBaiduOcrAsync(Application app, byte[] image)
         {
-            Constraints.Add(ActivityConstraints.HasParentType<VatInvoiceActivity, BaiduOcrScope>(Resources.ValidationMessage));
+            return Task.Run(() => app.BaiduOcrClient.VatInvoice(image));
         }
-
-        #region Protected Methods
-
-        /// <summary>
-        /// Validates properties at design-time.
-        /// </summary>
-        /// <param name="metadata"></param>
-        protected override void CacheMetadata(CodeActivityMetadata metadata)
-		{
-			if (FirstNumber == null) metadata.AddValidationError(string.Format(Resources.MetadataValidationError, nameof(FirstNumber)));
-            if (SecondNumber == null) metadata.AddValidationError(string.Format(Resources.MetadataValidationError, nameof(SecondNumber)));
-
-            base.CacheMetadata(metadata);
     }
-
-    /// <summary>
-    /// Runs the main logic of the activity. Has access to the context, 
-    /// which holds the values of properties for this activity and those from the parent scope.
-    /// </summary>
-    /// <param name="context"></param>
-    /// <param name="cancellationToken"></param>
-    /// <returns></returns>
-    protected override async Task<Action<AsyncCodeActivityContext>> ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
-		{
-            var property = context.DataContext.GetProperties()[BaiduOcrScope.ApplicationTag];
-            var app = property.GetValue(context.DataContext) as Application;
-           
-            var firstValue = FirstNumber.Get(context);
-            var secondValue = SecondNumber.Get(context);
-
-            var sum = app.Sum(firstValue, secondValue);
-			return ctx =>
-            {
-                Sum.Set(ctx, sum);
-            };
-		}
-
-		#endregion
-	}
 }

@@ -5,7 +5,7 @@
 任务描述|发布日期|任务状态
 ---|---|---
 创建项目|2020-1-8|完成
-[增值税发票识别](https://ai.baidu.com/tech/ocr_receipts/vat_invoice)|2020-1-19|计划
+[增值税发票识别](https://ai.baidu.com/tech/ocr_receipts/vat_invoice)|2020-1-12|完成
 [定额发票识别](https://ai.baidu.com/tech/ocr_receipts/quota_invoice)|2020-1-19|计划
 [出租车票识别](https://ai.baidu.com/tech/ocr_receipts/taxi_receipt)|2020-1-19|计划
 

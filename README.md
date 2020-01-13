@@ -7,8 +7,8 @@
 名称|类型|活动|发布日期|任务状态
 ---|---|---|---|---
 [增值税发票识别](https://ai.baidu.com/tech/ocr_receipts/vat_invoice)|票据|[VatInvoiceActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/VatInvoiceActivity.cs)|2020-1-12|完成
-[定额发票识别](https://ai.baidu.com/tech/ocr_receipts/quota_invoice)|票据|QuotaInvoiceActivity|2020-1-19|计划
-[出租车票识别](https://ai.baidu.com/tech/ocr_receipts/taxi_receipt)|票据|TaxiReceiptActivity|2020-1-19|计划
+[定额发票识别](https://ai.baidu.com/tech/ocr_receipts/quota_invoice)|票据|[QuotaInvoiceActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/QuotaInvoiceActivity.cs)|2020-1-13|完成
+[出租车票识别](https://ai.baidu.com/tech/ocr_receipts/taxi_receipt)|票据|[TaxiReceiptActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/TaxiReceiptActivity.cs)|2020-1-13|完成
 
 ## 安装
 

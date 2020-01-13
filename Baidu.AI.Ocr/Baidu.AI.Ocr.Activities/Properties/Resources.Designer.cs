@@ -106,6 +106,42 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a quota invoice..
+        /// </summary>
+        internal static string QuotaInvoiceActivityDescription {
+            get {
+                return ResourceManager.GetString("QuotaInvoiceActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quota Invoice Activity.
+        /// </summary>
+        internal static string QuotaInvoiceActivityDisplayName {
+            get {
+                return ResourceManager.GetString("QuotaInvoiceActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Taxi Receipt Activity.
+        /// </summary>
+        internal static string TaxiReceiptActivityDisplayName {
+            get {
+                return ResourceManager.GetString("TaxiReceiptActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a taxi receipt..
+        /// </summary>
+        internal static string TaxiReceiptActivityescription {
+            get {
+                return ResourceManager.GetString("TaxiReceiptActivityescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Activity is only valid inside a Baidu OCR Scope..
         /// </summary>
         internal static string ValidationMessage {

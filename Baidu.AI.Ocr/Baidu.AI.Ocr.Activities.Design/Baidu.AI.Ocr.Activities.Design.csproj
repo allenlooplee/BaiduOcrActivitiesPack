@@ -53,6 +53,12 @@
     <Compile Include="..\Baidu.AI.OcrAssemblyInfo.cs">
       <Link>Properties\Baidu.AI.OcrAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Designers\QuotaInvoiceActivityDesigner.xaml.cs">
+      <DependentUpon>QuotaInvoiceActivityDesigner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Designers\TaxiReceiptActivityDesigner.xaml.cs">
+      <DependentUpon>TaxiReceiptActivityDesigner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\SharedResources.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -85,6 +91,14 @@
       <Link>Themes\Generic.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Designers\QuotaInvoiceActivityDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Designers\TaxiReceiptActivityDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Designers\VatInvoiceActivityDesigner.xaml">
       <SubType>Designer</SubType>

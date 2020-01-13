@@ -165,4 +165,16 @@
     <value>ImagePath</value>
     <comment>property name</comment>
   </data>
+  <data name="QuotaInvoiceActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a quota invoice.</value>
+  </data>
+  <data name="QuotaInvoiceActivityDisplayName" xml:space="preserve">
+    <value>Quota Invoice Activity</value>
+  </data>
+  <data name="TaxiReceiptActivityDisplayName" xml:space="preserve">
+    <value>Taxi Receipt Activity</value>
+  </data>
+  <data name="TaxiReceiptActivityescription" xml:space="preserve">
+    <value>Returns the recognized values of a taxi receipt.</value>
+  </data>
 </root>

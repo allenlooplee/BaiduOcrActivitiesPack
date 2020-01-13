@@ -57,5 +57,63 @@
         </DrawingBrush.Drawing>
     </DrawingBrush>
 
+    <DrawingBrush x:Key="TaxiReceiptActivityIcon" Viewbox="0,0,52.706,14.497" ViewboxUnits="Absolute" Stretch="Uniform">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.ClipGeometry>
+                    <RectangleGeometry Rect="0,0,192,192" />
+                </DrawingGroup.ClipGeometry>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#00FFFFFF" Thickness="1" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,192,192" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <DrawingGroup>
+                    <DrawingGroup>
+                        <DrawingGroup>
+                            <GeometryDrawing Brush="#FFFF6900">
+                                <GeometryDrawing.Geometry>
+                                    <PathGeometry FillRule="Nonzero" Figures="M172.8,15.36L19.2,15.36C12.855,15.36,7.68000000000002,20.535,7.68000000000002,26.88L7.68000000000002,165.12C7.68000000000002,171.465,12.855,176.64,19.2,176.64L172.8,176.64C179.145,176.64,184.32,171.465,184.32,165.12L184.32,26.88C184.32,20.535,179.145,15.36,172.8,15.36z M149.76,138.24L42.24,138.24C40.125,138.24 38.4,136.53 38.4,134.4 38.4,132.27 40.125,130.56 42.24,130.56L149.76,130.56C151.89,130.56 153.6,132.27 153.6,134.4 153.6,136.53 151.89,138.24 149.76,138.24z M149.76,99.84L42.24,99.84C40.125,99.84 38.4,98.115 38.4,96 38.4,93.885 40.125,92.16 42.24,92.16L149.76,92.16C151.89,92.16 153.6,93.885 153.6,96 153.6,98.115 151.89,99.84 149.76,99.84z M149.76,61.44L42.24,61.44C40.125,61.44 38.4,59.715 38.4,57.6 38.4,55.485 40.125,53.76 42.24,53.76L149.76,53.76C151.89,53.76 153.6,55.485 153.6,57.6 153.6,59.715 151.89,61.44 149.76,61.44z" />
+                                </GeometryDrawing.Geometry>
+                            </GeometryDrawing>
+                        </DrawingGroup>
+                    </DrawingGroup>
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+
+    <DrawingBrush x:Key="QuotaInvoiceActivityIcon" Viewbox="0,0,52.706,14.497" ViewboxUnits="Absolute" Stretch="Uniform">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.ClipGeometry>
+                    <RectangleGeometry Rect="0,0,192,192" />
+                </DrawingGroup.ClipGeometry>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="#00FFFFFF" Thickness="1" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="0,0,192,192" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <DrawingGroup>
+                    <DrawingGroup>
+                        <DrawingGroup>
+                            <GeometryDrawing Brush="#FFFF6900">
+                                <GeometryDrawing.Geometry>
+                                    <PathGeometry FillRule="Nonzero" Figures="M172.8,15.36L19.2,15.36C12.855,15.36,7.68000000000002,20.535,7.68000000000002,26.88L7.68000000000002,165.12C7.68000000000002,171.465,12.855,176.64,19.2,176.64L172.8,176.64C179.145,176.64,184.32,171.465,184.32,165.12L184.32,26.88C184.32,20.535,179.145,15.36,172.8,15.36z M149.76,138.24L42.24,138.24C40.125,138.24 38.4,136.53 38.4,134.4 38.4,132.27 40.125,130.56 42.24,130.56L149.76,130.56C151.89,130.56 153.6,132.27 153.6,134.4 153.6,136.53 151.89,138.24 149.76,138.24z M149.76,99.84L42.24,99.84C40.125,99.84 38.4,98.115 38.4,96 38.4,93.885 40.125,92.16 42.24,92.16L149.76,92.16C151.89,92.16 153.6,93.885 153.6,96 153.6,98.115 151.89,99.84 149.76,99.84z M149.76,61.44L42.24,61.44C40.125,61.44 38.4,59.715 38.4,57.6 38.4,55.485 40.125,53.76 42.24,53.76L149.76,53.76C151.89,53.76 153.6,55.485 153.6,57.6 153.6,59.715 151.89,61.44 149.76,61.44z" />
+                                </GeometryDrawing.Geometry>
+                            </GeometryDrawing>
+                        </DrawingGroup>
+                    </DrawingGroup>
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+
 </ResourceDictionary>
     

@@ -10,9 +10,23 @@
 [定额发票识别](https://ai.baidu.com/tech/ocr_receipts/quota_invoice)|票据|[QuotaInvoiceActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/QuotaInvoiceActivity.cs)|2020-1-13|完成
 [出租车票识别](https://ai.baidu.com/tech/ocr_receipts/taxi_receipt)|票据|[TaxiReceiptActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/TaxiReceiptActivity.cs)|2020-1-13|完成
 
+*其他文字识别活动将会陆续开发并发布。*
+
 ## 安装
 
+![安装百度文字识别活动包](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Install.PNG)
+
+本活动包目前还在开发当中，如果你想在UiPath Studio中提前体验一下，可以到GitHub Releases下载[v0.1.0 Pre-release](https://github.com/allenlooplee/BaiduOcrActivitiesPack/releases/tag/v0.1.0)，然后到UiPath Studio的Manage Packages安装活动包。
+
+*本活动包也将发布到[UiPath Go](https://go.uipath.com/)。*
+
 ## 使用
+
+![使用百度文字识别活动](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Use.PNG)
+
+安装好本活动包之后，你会在Activities面板上看到相关的活动，把你想使用的活动拖到Designer面板，并在Properties面板上指定你想识别的图片就行了，识别结果将以[JObject](https://github.com/JamesNK/Newtonsoft.Json/blob/master/Src/Newtonsoft.Json/Linq/JObject.cs)对象返回。
+
+*在使用百度文字识别之前，你需要在[百度AI开放平台](https://ai.baidu.com/)注册账号，创建文字识别应用，并获取API Key和Secret Key。*
 
 ## 构建
 
@@ -21,7 +35,7 @@
 2. [UiPath Activity Creator](https://marketplace.visualstudio.com/items?itemName=UiPathLabs.UiPathActivitySet)
 3. [UiPath Studio](https://www.uipath.com/start-trial)
 
-Visual Studio用来打开[活动包项目](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr.sln)，UiPath Studio用来打开[测试项目](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/tests/Baidu.AI.Ocr.Tests/Main.xaml)。在运行测试项目之前，你需要注册[百度AI开放平台](https://ai.baidu.com/)并创建文字识别应用，然后把API Key和Secret Key填入BaiduOcrScope活动的相应属性。
+Visual Studio用来打开[活动包项目](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr.sln)，UiPath Studio用来打开[测试项目](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/tests/Baidu.AI.Ocr.Tests/Main.xaml)。在运行测试项目之前，你需要把文字识别应用的API Key和Secret Key填入BaiduOcrScope活动的相应属性。
 
 ## 许可协议
 
@@ -29,6 +43,7 @@ Visual Studio用来打开[活动包项目](https://github.com/allenlooplee/Baidu
 
 ## 其他代码库和参考资料
 * [百度AI开放平台 .NET SDK](https://github.com/Baidu-AIP/dotnet-sdk)
+* [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json)
 * [百度文字识别API文档](https://ai.baidu.com/ai-doc/OCR/Ek3h7xypm)
 * [Quick Start: The 5 minute activity set](https://docs.uipath.com/integrations/docs/quick-start)
 * [Windows Workflow Foundation](https://docs.microsoft.com/en-us/dotnet/framework/windows-workflow-foundation/)

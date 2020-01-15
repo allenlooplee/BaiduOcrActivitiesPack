@@ -24,9 +24,9 @@
 
 ![使用百度文字识别活动](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Use.PNG)
 
-安装好本活动包之后，你会在Activities面板上看到相关的活动，把你想使用的活动拖到Designer面板，并在Properties面板上指定你想识别的图片就行了，识别结果将以[JObject](https://github.com/JamesNK/Newtonsoft.Json/blob/master/Src/Newtonsoft.Json/Linq/JObject.cs)对象返回。
+安装好本活动包之后，你会在Activities面板上看到相关的活动，把你想使用的文字识别活动拖到Designer面板，然后在Properties面板上指定你想识别的图片就行了，识别结果将以[JObject](https://github.com/JamesNK/Newtonsoft.Json/blob/master/Src/Newtonsoft.Json/Linq/JObject.cs)对象返回。
 
-*在使用百度文字识别之前，你需要在[百度AI开放平台](https://ai.baidu.com/)注册账号，创建文字识别应用，并获取API Key和Secret Key。*
+*注意：所有文字识别活动都要放在BaiduOcrScope中，在使用文字识别活动之前，你需要在[百度AI开放平台](https://ai.baidu.com/)注册账号，创建文字识别应用，获取API Key和Secret Key，并填入BaiduOcrScope的相应属性中。*
 
 ## 构建
 

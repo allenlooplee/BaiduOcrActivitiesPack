@@ -37,13 +37,13 @@
 
 Visual Studio用来打开[活动包项目](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr.sln)，UiPath Studio用来打开[测试项目](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/tests/Baidu.AI.Ocr.Tests/Main.xaml)。在运行测试项目之前，你需要把文字识别应用的API Key和Secret Key填入BaiduOcrScope活动的相应属性。
 
-## 许可协议
-
-本代码库遵循[MIT许可协议](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/LICENSE)，可作商业用途。
-
 ## 其他代码库和参考资料
 * [百度AI开放平台 .NET SDK](https://github.com/Baidu-AIP/dotnet-sdk)
 * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json)
 * [百度文字识别API文档](https://ai.baidu.com/ai-doc/OCR/Ek3h7xypm)
 * [Quick Start: The 5 minute activity set](https://docs.uipath.com/integrations/docs/quick-start)
 * [Windows Workflow Foundation](https://docs.microsoft.com/en-us/dotnet/framework/windows-workflow-foundation/)
+
+## 许可协议
+
+本代码库遵循[MIT许可协议](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/LICENSE)，可作商业用途。

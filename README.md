@@ -47,3 +47,8 @@ Visual Studio用来打开[活动包项目](https://github.com/allenlooplee/Baidu
 ## 许可协议
 
 本代码库遵循[MIT许可协议](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/LICENSE)，可作商业用途。
+
+## 特别声明
+* 本活动包并非官方出品，不存在官方支持。
+* 本活动包并不包含任何本地模型，你的票据将会发往百度AI开放平台进行文字识别。
+* 本活动包并不收取任何费用，百度AI开放平台可能[根据你的使用情况收取费用](https://ai.baidu.com/ai-doc/OCR/Jk3h7xtsd)。

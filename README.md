@@ -1,6 +1,8 @@
 # 百度文字识别活动包
 
-百度AI开放平台提供多种文字识别，如增值税发票、营业执照、驾驶证等，可以用于多种RPA流程，我也在《RPA开发与应用》（即将出版）中详细讲解了如何在UiPath Studio中识别增值税发票。本代码库的目的是打通UiPath和百度文字识别，让开发者能在UiPath Studio中通过简单的拖放和设置把百度文字识别用到相关流程中，从而加速开发过程。
+![海报](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Poster.png)
+
+[百度AI开放平台](https://ai.baidu.com/)提供多种文字识别，如增值税发票、营业执照、驾驶证等，可以用于多种RPA流程，我也在《RPA开发与应用》（即将出版）中详细讲解了如何在UiPath Studio中识别增值税发票。本代码库的目的是打通UiPath和百度文字识别，让开发者能在UiPath Studio中通过简单的拖放和设置把百度文字识别用到相关流程中，从而加速开发过程。
 
 ## 开发计划和状态
 
@@ -26,7 +28,7 @@
 
 安装好本活动包之后，你会在Activities面板上看到相关的活动，把你想使用的文字识别活动拖到Designer面板，然后在Properties面板上指定你想识别的图片就行了，识别结果将以[JObject](https://github.com/JamesNK/Newtonsoft.Json/blob/master/Src/Newtonsoft.Json/Linq/JObject.cs)对象返回。
 
-*注意：所有文字识别活动都要放在BaiduOcrScope中，在使用文字识别活动之前，你需要在[百度AI开放平台](https://ai.baidu.com/)注册账号，创建文字识别应用，获取API Key和Secret Key，并填入BaiduOcrScope的相应属性中。*
+*注意：所有文字识别活动都要放在BaiduOcrScope中，在使用文字识别活动之前，你需要在百度AI开放平台注册账号，创建文字识别应用，获取API Key和Secret Key，并填入BaiduOcrScope的相应属性中。*
 
 ## 构建
 

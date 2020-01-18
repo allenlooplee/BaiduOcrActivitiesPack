@@ -11,8 +11,14 @@
 [增值税发票识别](https://ai.baidu.com/tech/ocr_receipts/vat_invoice)|票据|[VatInvoiceActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/VatInvoiceActivity.cs)|2020-1-12|完成
 [定额发票识别](https://ai.baidu.com/tech/ocr_receipts/quota_invoice)|票据|[QuotaInvoiceActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/QuotaInvoiceActivity.cs)|2020-1-13|完成
 [出租车票识别](https://ai.baidu.com/tech/ocr_receipts/taxi_receipt)|票据|[TaxiReceiptActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/TaxiReceiptActivity.cs)|2020-1-13|完成
+[身份证识别](https://ai.baidu.com/tech/ocr_cards/idcard)|卡证|IdCardActivity|2020-1-23|计划
+[户口本识别](https://ai.baidu.com/tech/ocr_cards/household_register)|卡证|HouseholdRegisterActivity|2020-1-23|计划
+[出生医学证明识别](https://ai.baidu.com/tech/ocr_cards/birth_certificate)|卡证|BirthCertificateActivity|2020-1-23|计划
+[护照识别](https://ai.baidu.com/tech/ocr_cards/passport)|卡证|PassportActivity|2020-2-9|计划
+[港澳通行证识别](https://ai.baidu.com/tech/ocr_cards/HK_Macau_exitentrypermit)|卡证|HkMacauExitentrypermitActivity|2020-2-9|计划
+[台湾通行证识别](https://ai.baidu.com/tech/ocr_cards/taiwan_exitentrypermit)|卡证|TaiwanExitentrypermitActivity|2020-2-9|计划
 
-*其他文字识别活动将会陆续开发并发布。*
+*其他文字识别活动将会陆续排期开发。*
 
 ## 安装
 

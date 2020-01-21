@@ -12,9 +12,9 @@ namespace Baidu.AI.Ocr.Activities
     [LocalizedDescription(nameof(Resources.QuotaInvoiceActivityDescription))]
     public class QuotaInvoiceActivity : BaiduOcrActivityBase
     {
-        protected override Task<JObject> InvokeBaiduOcrAsync(Application app, byte[] image)
+        protected override Task<JObject> InvokeBaiduOcrAsync(Baidu.Aip.Ocr.Ocr baiduOcr, byte[] image, AsyncCodeActivityContext context, CancellationToken cancellationToken)
         {
-            return Task.Run(() => app.BaiduOcrClient.QuotaInvoice(image));
+            return Task.Run(() => baiduOcr.QuotaInvoice(image));
         }
     }
 }

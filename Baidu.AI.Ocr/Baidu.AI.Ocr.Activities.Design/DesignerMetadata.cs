@@ -31,6 +31,10 @@ namespace Baidu.AI.Ocr.Activities.Design
             builder.AddCustomAttributes(typeof(TaxiReceiptActivity), new DesignerAttribute(typeof(TaxiReceiptActivityDesigner)));
             builder.AddCustomAttributes(typeof(TaxiReceiptActivity), new HelpKeywordAttribute("https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/README.md"));
 
+            builder.AddCustomAttributes(typeof(IdCardActivity), categoryAttribute);
+            builder.AddCustomAttributes(typeof(IdCardActivity), new DesignerAttribute(typeof(IdCardActivityDesigner)));
+            builder.AddCustomAttributes(typeof(IdCardActivity), new HelpKeywordAttribute("https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/README.md"));
+
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }
     }

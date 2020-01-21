@@ -61,6 +61,42 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The file path to the image for recognition..
+        /// </summary>
+        internal static string BaiduOcrActivityImagePathDescription {
+            get {
+                return ResourceManager.GetString("BaiduOcrActivityImagePathDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ImagePath.
+        /// </summary>
+        internal static string BaiduOcrActivityImagePathDisplayName {
+            get {
+                return ResourceManager.GetString("BaiduOcrActivityImagePathDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The result of the recognition in the form of JSON..
+        /// </summary>
+        internal static string BaiduOcrActivityResultDescription {
+            get {
+                return ResourceManager.GetString("BaiduOcrActivityResultDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Result.
+        /// </summary>
+        internal static string BaiduOcrActivityResultDisplayName {
+            get {
+                return ResourceManager.GetString("BaiduOcrActivityResultDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Baidu OCR Scope.
         /// </summary>
         internal static string BaiduOcrScope {
@@ -75,6 +111,42 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         internal static string BaiduOcrScopeDescription {
             get {
                 return ResourceManager.GetString("BaiduOcrScopeDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of an ID Card. Front and back sides to be recognized separately..
+        /// </summary>
+        internal static string IdCardActivityDescription {
+            get {
+                return ResourceManager.GetString("IdCardActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ID Card.
+        /// </summary>
+        internal static string IdCardActivityDisplayName {
+            get {
+                return ResourceManager.GetString("IdCardActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ID card side, front or back..
+        /// </summary>
+        internal static string IdCardSideDescription {
+            get {
+                return ResourceManager.GetString("IdCardSideDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IdCardSide.
+        /// </summary>
+        internal static string IdCardSideDisplayName {
+            get {
+                return ResourceManager.GetString("IdCardSideDisplayName", resourceCulture);
             }
         }
         
@@ -115,7 +187,7 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Quota Invoice Activity.
+        ///   Looks up a localized string similar to Quota Invoice.
         /// </summary>
         internal static string QuotaInvoiceActivityDisplayName {
             get {
@@ -124,7 +196,7 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Taxi Receipt Activity.
+        ///   Looks up a localized string similar to Taxi Receipt.
         /// </summary>
         internal static string TaxiReceiptActivityDisplayName {
             get {
@@ -160,47 +232,11 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to VAT Invoice Activity.
+        ///   Looks up a localized string similar to VAT Invoice.
         /// </summary>
         internal static string VatInvoiceActivityDisplayName {
             get {
                 return ResourceManager.GetString("VatInvoiceActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The file path to the image for recognition..
-        /// </summary>
-        internal static string VatInvoiceActivityImagePathDescription {
-            get {
-                return ResourceManager.GetString("VatInvoiceActivityImagePathDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ImagePath.
-        /// </summary>
-        internal static string VatInvoiceActivityImagePathDisplayName {
-            get {
-                return ResourceManager.GetString("VatInvoiceActivityImagePathDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The result of the recognition in the form of JSON..
-        /// </summary>
-        internal static string VatInvoiceActivityResultDescription {
-            get {
-                return ResourceManager.GetString("VatInvoiceActivityResultDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Result.
-        /// </summary>
-        internal static string VatInvoiceActivityResultDisplayName {
-            get {
-                return ResourceManager.GetString("VatInvoiceActivityResultDisplayName", resourceCulture);
             }
         }
     }

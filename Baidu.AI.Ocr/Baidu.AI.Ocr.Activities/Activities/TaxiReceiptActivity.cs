@@ -12,9 +12,9 @@ namespace Baidu.AI.Ocr.Activities
     [LocalizedDescription(nameof(Resources.TaxiReceiptActivityescription))]
     public class TaxiReceiptActivity : BaiduOcrActivityBase
     {
-        protected override Task<JObject> InvokeBaiduOcrAsync(Application app, byte[] image)
+        protected override Task<JObject> InvokeBaiduOcrAsync(Baidu.Aip.Ocr.Ocr baiduOcr, byte[] image, AsyncCodeActivityContext context, CancellationToken cancellationToken)
         {
-            return Task.Run(() => app.BaiduOcrClient.TaxiReceipt(image));
+            return Task.Run(() => baiduOcr.TaxiReceipt(image));
         }
     }
 }

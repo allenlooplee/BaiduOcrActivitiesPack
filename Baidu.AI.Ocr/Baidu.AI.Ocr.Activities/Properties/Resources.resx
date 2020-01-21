@@ -142,14 +142,14 @@
     <comment>description</comment>
   </data>
   <data name="VatInvoiceActivityDisplayName" xml:space="preserve">
-    <value>VAT Invoice Activity</value>
+    <value>VAT Invoice</value>
     <comment>display name</comment>
   </data>
-  <data name="VatInvoiceActivityResultDescription" xml:space="preserve">
+  <data name="BaiduOcrActivityResultDescription" xml:space="preserve">
     <value>The result of the recognition in the form of JSON.</value>
     <comment>description</comment>
   </data>
-  <data name="VatInvoiceActivityResultDisplayName" xml:space="preserve">
+  <data name="BaiduOcrActivityResultDisplayName" xml:space="preserve">
     <value>Result</value>
     <comment>display name</comment>
   </data>
@@ -157,11 +157,11 @@
     <value>Activity is only valid inside a Baidu OCR Scope.</value>
     <comment>validation message</comment>
   </data>
-  <data name="VatInvoiceActivityImagePathDescription" xml:space="preserve">
+  <data name="BaiduOcrActivityImagePathDescription" xml:space="preserve">
     <value>The file path to the image for recognition.</value>
     <comment>description</comment>
   </data>
-  <data name="VatInvoiceActivityImagePathDisplayName" xml:space="preserve">
+  <data name="BaiduOcrActivityImagePathDisplayName" xml:space="preserve">
     <value>ImagePath</value>
     <comment>property name</comment>
   </data>
@@ -169,12 +169,24 @@
     <value>Returns the recognized values of a quota invoice.</value>
   </data>
   <data name="QuotaInvoiceActivityDisplayName" xml:space="preserve">
-    <value>Quota Invoice Activity</value>
+    <value>Quota Invoice</value>
   </data>
   <data name="TaxiReceiptActivityDisplayName" xml:space="preserve">
-    <value>Taxi Receipt Activity</value>
+    <value>Taxi Receipt</value>
   </data>
   <data name="TaxiReceiptActivityescription" xml:space="preserve">
     <value>Returns the recognized values of a taxi receipt.</value>
+  </data>
+  <data name="IdCardActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of an ID Card. Front and back sides to be recognized separately.</value>
+  </data>
+  <data name="IdCardActivityDisplayName" xml:space="preserve">
+    <value>ID Card</value>
+  </data>
+  <data name="IdCardSideDescription" xml:space="preserve">
+    <value>ID card side, front or back.</value>
+  </data>
+  <data name="IdCardSideDisplayName" xml:space="preserve">
+    <value>IdCardSide</value>
   </data>
 </root>

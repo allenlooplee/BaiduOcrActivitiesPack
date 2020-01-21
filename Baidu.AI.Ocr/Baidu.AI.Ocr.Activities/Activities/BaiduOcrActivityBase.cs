@@ -16,13 +16,13 @@ namespace Baidu.AI.Ocr.Activities
     {
         #region Properties
 
-        [LocalizedDisplayName(nameof(Resources.VatInvoiceActivityImagePathDisplayName))]
-        [LocalizedDescription(nameof(Resources.VatInvoiceActivityImagePathDescription))]
+        [LocalizedDisplayName(nameof(Resources.BaiduOcrActivityImagePathDisplayName))]
+        [LocalizedDescription(nameof(Resources.BaiduOcrActivityImagePathDescription))]
         [LocalizedCategory(nameof(Resources.Input))]
         public InArgument<string> ImagePath { get; set; }
 
-        [LocalizedDisplayName(nameof(Resources.VatInvoiceActivityResultDisplayName))]
-        [LocalizedDescription(nameof(Resources.VatInvoiceActivityResultDescription))]
+        [LocalizedDisplayName(nameof(Resources.BaiduOcrActivityResultDisplayName))]
+        [LocalizedDescription(nameof(Resources.BaiduOcrActivityResultDescription))]
         [LocalizedCategory(nameof(Resources.Output))]
         public OutArgument<JObject> Result { get; set; }
 
@@ -65,11 +65,11 @@ namespace Baidu.AI.Ocr.Activities
             var imagePath = ImagePath.Get(context);
             var image = File.ReadAllBytes(imagePath);
 
-            var result = await InvokeBaiduOcrAsync(app, image);
+            var result = await InvokeBaiduOcrAsync(app.BaiduOcrClient, image, context, cancellationToken);
             return ctx => Result.Set(ctx, result);
         }
 
-        protected abstract Task<JObject> InvokeBaiduOcrAsync(Application app, byte[] image);
+        protected abstract Task<JObject> InvokeBaiduOcrAsync(Baidu.Aip.Ocr.Ocr baiduOcr, byte[] image, AsyncCodeActivityContext context, CancellationToken cancellationToken);
 
         #endregion
     }

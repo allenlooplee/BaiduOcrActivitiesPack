@@ -53,6 +53,9 @@
     <Compile Include="..\Baidu.AI.OcrAssemblyInfo.cs">
       <Link>Properties\Baidu.AI.OcrAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Designers\IdCardActivityDesigner.xaml.cs">
+      <DependentUpon>IdCardActivityDesigner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Designers\QuotaInvoiceActivityDesigner.xaml.cs">
       <DependentUpon>QuotaInvoiceActivityDesigner.xaml</DependentUpon>
     </Compile>
@@ -91,6 +94,10 @@
       <Link>Themes\Generic.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Designers\IdCardActivityDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Designers\QuotaInvoiceActivityDesigner.xaml">
       <SubType>Designer</SubType>

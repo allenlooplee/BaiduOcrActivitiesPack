@@ -24,10 +24,11 @@
       <x:String>System.Windows.Markup</x:String>
       <x:String>Newtonsoft.Json.Linq</x:String>
       <x:String>Newtonsoft.Json</x:String>
+      <x:String>Baidu.AI.Ocr.Activities</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="17">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="34">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -45,6 +46,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>Baidu.AI.Ocr.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="476,394" sap2010:WorkflowViewState.IdRef="Sequence_1">

@@ -13,9 +13,9 @@ namespace Baidu.AI.Ocr.Activities
     [LocalizedDescription(nameof(Resources.VatInvoiceActivityDescription))]
     public class VatInvoiceActivity : BaiduOcrActivityBase
     {
-        protected override Task<JObject> InvokeBaiduOcrAsync(Application app, byte[] image)
+        protected override Task<JObject> InvokeBaiduOcrAsync(Baidu.Aip.Ocr.Ocr baiduOcr, byte[] image, AsyncCodeActivityContext context, CancellationToken cancellationToken)
         {
-            return Task.Run(() => app.BaiduOcrClient.VatInvoice(image));
+            return Task.Run(() => baiduOcr.VatInvoice(image));
         }
     }
 }

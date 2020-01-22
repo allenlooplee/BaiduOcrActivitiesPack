@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Category" xml:space="preserve">
-    <value>Baidu.AI.Ocr</value>
+    <value>Baidu.Ocr</value>
     <comment>Category</comment>
   </data>
   <data name="Collection" xml:space="preserve">

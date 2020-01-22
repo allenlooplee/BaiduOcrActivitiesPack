@@ -53,6 +53,9 @@
     <Compile Include="..\Baidu.AI.OcrAssemblyInfo.cs">
       <Link>Properties\Baidu.AI.OcrAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Designers\BirthCertificateActivityDesigner.xaml.cs">
+      <DependentUpon>BirthCertificateActivityDesigner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Designers\HouseholdRegisterActivityDesigner.xaml.cs">
       <DependentUpon>HouseholdRegisterActivityDesigner.xaml</DependentUpon>
     </Compile>
@@ -97,6 +100,10 @@
       <Link>Themes\Generic.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Designers\BirthCertificateActivityDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Designers\HouseholdRegisterActivityDesigner.xaml">
       <SubType>Designer</SubType>

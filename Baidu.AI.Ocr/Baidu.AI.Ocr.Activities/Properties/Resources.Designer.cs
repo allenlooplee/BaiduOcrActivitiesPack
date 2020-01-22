@@ -115,6 +115,24 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a birth certificate..
+        /// </summary>
+        internal static string BirthCertificateActivityDescription {
+            get {
+                return ResourceManager.GetString("BirthCertificateActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Birth Certificate.
+        /// </summary>
+        internal static string BirthCertificateActivityDisplayName {
+            get {
+                return ResourceManager.GetString("BirthCertificateActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Returns the recognized values of a household register..
         /// </summary>
         internal static string HouseholdRegisterActivityDescription {

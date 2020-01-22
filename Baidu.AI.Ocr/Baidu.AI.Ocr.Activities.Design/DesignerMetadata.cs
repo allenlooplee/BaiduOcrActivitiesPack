@@ -39,6 +39,10 @@ namespace Baidu.AI.Ocr.Activities.Design
             builder.AddCustomAttributes(typeof(HouseholdRegisterActivity), new DesignerAttribute(typeof(HouseholdRegisterActivityDesigner)));
             builder.AddCustomAttributes(typeof(HouseholdRegisterActivity), new HelpKeywordAttribute("https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/README.md"));
 
+            builder.AddCustomAttributes(typeof(BirthCertificateActivity), categoryAttribute);
+            builder.AddCustomAttributes(typeof(BirthCertificateActivity), new DesignerAttribute(typeof(BirthCertificateActivityDesigner)));
+            builder.AddCustomAttributes(typeof(BirthCertificateActivity), new HelpKeywordAttribute("https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/README.md"));
+
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }
     }

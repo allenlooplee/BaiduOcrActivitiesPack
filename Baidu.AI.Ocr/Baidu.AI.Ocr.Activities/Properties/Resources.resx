@@ -195,4 +195,10 @@
   <data name="HouseholdRegisterActivityDisplayName" xml:space="preserve">
     <value>Household Register</value>
   </data>
+  <data name="BirthCertificateActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a birth certificate.</value>
+  </data>
+  <data name="BirthCertificateActivityDisplayName" xml:space="preserve">
+    <value>Birth Certificate</value>
+  </data>
 </root>

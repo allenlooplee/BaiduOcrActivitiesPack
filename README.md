@@ -45,6 +45,13 @@
 
 Visual Studio用来打开[活动包项目](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr.sln)，UiPath Studio用来打开[测试项目](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/tests/Baidu.AI.Ocr.Tests/Main.xaml)。在运行测试项目之前，你需要把文字识别应用的API Key和Secret Key填入BaiduOcrScope活动的相应属性。
 
+如果你想自行创建百度文字识别活动，你需要遵循以下步骤：
+1. **创建活动**。在Baidu.AI.Ocr.Activities项目中创建一个Simple Activity，放在Activities文件夹中，并让它继承自BaiduOcrActivityBase类，你可以仿照[VatInvoiceActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/VatInvoiceActivity.cs)类来实现新的活动。
+2. **本地化活动**。在Baidu.AI.Ocr.Activities项目的Resources.resx中添加DisplayName和Description两项，并把它们应用到活动上，活动在UiPath Studio中显示的名称和描述就来自这两项。
+3. **创建活动设计器**。在Baidu.AI.Ocr.Activities.Design项目中创建一个Simple Activity Designer，放在Designers文件夹中。如果你没有特殊需求则不必修改。
+4. **创建活动图标**。在Baidu.AI.Ocr.Activities.Design项目的Themes\Icons.xaml中添加一个DrawingBrush，并把x:Key的值设为XXXIcon，其中XXX是活动名，如VatInvoiceActivityIcon。
+5. **关联活动和活动设计器**。在Baidu.AI.Ocr.Activities.Design项目的DesignerMetadata.cs中设置活动的类别、设计器和帮助链接。
+
 ## 其他代码库和参考资料
 * [百度AI开放平台 .NET SDK](https://github.com/Baidu-AIP/dotnet-sdk)
 * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json)

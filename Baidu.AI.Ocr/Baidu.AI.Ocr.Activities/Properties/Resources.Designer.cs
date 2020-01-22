@@ -115,6 +115,24 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a household register..
+        /// </summary>
+        internal static string HouseholdRegisterActivityDescription {
+            get {
+                return ResourceManager.GetString("HouseholdRegisterActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Household Register.
+        /// </summary>
+        internal static string HouseholdRegisterActivityDisplayName {
+            get {
+                return ResourceManager.GetString("HouseholdRegisterActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Returns the recognized values of an ID Card. Front and back sides to be recognized separately..
         /// </summary>
         internal static string IdCardActivityDescription {

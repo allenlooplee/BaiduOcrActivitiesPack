@@ -189,4 +189,10 @@
   <data name="IdCardSideDisplayName" xml:space="preserve">
     <value>IdCardSide</value>
   </data>
+  <data name="HouseholdRegisterActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a household register.</value>
+  </data>
+  <data name="HouseholdRegisterActivityDisplayName" xml:space="preserve">
+    <value>Household Register</value>
+  </data>
 </root>

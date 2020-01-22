@@ -11,7 +11,7 @@
 // by using the '*' as shown below:
 
 #if DEBUG
-[assembly: AssemblyVersion("0.1.*")]
+[assembly: AssemblyVersion("0.2.*")]
 #else
-[assembly: AssemblyVersion("0.1.0")]
+[assembly: AssemblyVersion("0.2.0")]
 #endif

@@ -214,6 +214,24 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a passport..
+        /// </summary>
+        internal static string PassportActivityDescription {
+            get {
+                return ResourceManager.GetString("PassportActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Passport.
+        /// </summary>
+        internal static string PassportActivityDisplayName {
+            get {
+                return ResourceManager.GetString("PassportActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Returns the recognized values of a quota invoice..
         /// </summary>
         internal static string QuotaInvoiceActivityDescription {

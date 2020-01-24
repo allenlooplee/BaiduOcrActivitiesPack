@@ -201,4 +201,10 @@
   <data name="BirthCertificateActivityDisplayName" xml:space="preserve">
     <value>Birth Certificate</value>
   </data>
+  <data name="PassportActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a passport.</value>
+  </data>
+  <data name="PassportActivityDisplayName" xml:space="preserve">
+    <value>Passport</value>
+  </data>
 </root>

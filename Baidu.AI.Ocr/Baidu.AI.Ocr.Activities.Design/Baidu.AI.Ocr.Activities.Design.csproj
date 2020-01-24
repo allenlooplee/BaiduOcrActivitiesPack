@@ -62,6 +62,9 @@
     <Compile Include="Designers\IdCardActivityDesigner.xaml.cs">
       <DependentUpon>IdCardActivityDesigner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Designers\PassportActivityDesigner.xaml.cs">
+      <DependentUpon>PassportActivityDesigner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Designers\QuotaInvoiceActivityDesigner.xaml.cs">
       <DependentUpon>QuotaInvoiceActivityDesigner.xaml</DependentUpon>
     </Compile>
@@ -110,6 +113,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Designers\IdCardActivityDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Designers\PassportActivityDesigner.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -56,6 +56,9 @@
     <Compile Include="Designers\BirthCertificateActivityDesigner.xaml.cs">
       <DependentUpon>BirthCertificateActivityDesigner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Designers\HkMacauExitentrypermitActivityDesigner.xaml.cs">
+      <DependentUpon>HkMacauExitentrypermitActivityDesigner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Designers\HouseholdRegisterActivityDesigner.xaml.cs">
       <DependentUpon>HouseholdRegisterActivityDesigner.xaml</DependentUpon>
     </Compile>
@@ -105,6 +108,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Designers\BirthCertificateActivityDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Designers\HkMacauExitentrypermitActivityDesigner.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

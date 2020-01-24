@@ -207,4 +207,10 @@
   <data name="PassportActivityDisplayName" xml:space="preserve">
     <value>Passport</value>
   </data>
+  <data name="HkMacauExitentrypermitActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a HK and Macau Pass.</value>
+  </data>
+  <data name="HkMacauExitentrypermitActivityDisplayName" xml:space="preserve">
+    <value>HK and Macau Pass</value>
+  </data>
 </root>

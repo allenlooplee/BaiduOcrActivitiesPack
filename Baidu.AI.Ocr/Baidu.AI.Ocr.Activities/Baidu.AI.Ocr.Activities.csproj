@@ -58,6 +58,7 @@
     </Compile>
     <Compile Include="Activities\BaiduOcrActivityBase.cs" />
     <Compile Include="Activities\BirthCertificateActivity.cs" />
+    <Compile Include="Activities\HkMacauExitentrypermitActivity.cs" />
     <Compile Include="Activities\HouseholdRegisterActivity.cs" />
     <Compile Include="Activities\IdCardActivity.cs" />
     <Compile Include="Activities\PassportActivity.cs" />

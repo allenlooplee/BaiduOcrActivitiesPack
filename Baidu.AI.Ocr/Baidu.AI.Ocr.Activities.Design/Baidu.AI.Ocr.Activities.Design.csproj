@@ -71,6 +71,9 @@
     <Compile Include="Designers\QuotaInvoiceActivityDesigner.xaml.cs">
       <DependentUpon>QuotaInvoiceActivityDesigner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Designers\TaiwanExitentrypermitActivityDesigner.xaml.cs">
+      <DependentUpon>TaiwanExitentrypermitActivityDesigner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Designers\TaxiReceiptActivityDesigner.xaml.cs">
       <DependentUpon>TaxiReceiptActivityDesigner.xaml</DependentUpon>
     </Compile>
@@ -128,6 +131,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Designers\QuotaInvoiceActivityDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Designers\TaiwanExitentrypermitActivityDesigner.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

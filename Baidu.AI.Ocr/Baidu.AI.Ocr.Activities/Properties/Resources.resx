@@ -208,9 +208,15 @@
     <value>Passport</value>
   </data>
   <data name="HkMacauExitentrypermitActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a HK and Macau Pass.</value>
+    <value>Returns the recognized values of a HK and Macau pass.</value>
   </data>
   <data name="HkMacauExitentrypermitActivityDisplayName" xml:space="preserve">
     <value>HK and Macau Pass</value>
+  </data>
+  <data name="TaiwanExitentrypermitActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a Taiwan pass.</value>
+  </data>
+  <data name="TaiwanExitentrypermitActivityDisplayName" xml:space="preserve">
+    <value>Taiwan Pass</value>
   </data>
 </root>

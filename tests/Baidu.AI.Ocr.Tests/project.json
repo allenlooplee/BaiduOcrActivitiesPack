@@ -3,7 +3,7 @@
   "description": "Tests for Baidu OCR Activities Pack",
   "main": "Main.xaml",
   "dependencies": {
-    "Baidu.AI.Ocr.Activities": "[0.2.7328.37401]",
+    "Baidu.AI.Ocr.Activities": "[0.2.7328.37801]",
     "UiPath.Excel.Activities": "[2.8.0-preview]",
     "UiPath.Mail.Activities": "[1.8.0-preview]",
     "UiPath.System.Activities": "[19.12.0-preview]",

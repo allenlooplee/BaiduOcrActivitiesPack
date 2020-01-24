@@ -63,6 +63,7 @@
     <Compile Include="Activities\IdCardActivity.cs" />
     <Compile Include="Activities\PassportActivity.cs" />
     <Compile Include="Activities\QuotaInvoiceActivity.cs" />
+    <Compile Include="Activities\TaiwanExitentrypermitActivity.cs" />
     <Compile Include="Activities\TaxiReceiptActivity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\SharedResources.cs" />

@@ -133,7 +133,7 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a HK and Macau Pass..
+        ///   Looks up a localized string similar to Returns the recognized values of a HK and Macau pass..
         /// </summary>
         internal static string HkMacauExitentrypermitActivityDescription {
             get {
@@ -264,6 +264,24 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         internal static string QuotaInvoiceActivityDisplayName {
             get {
                 return ResourceManager.GetString("QuotaInvoiceActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a Taiwan pass..
+        /// </summary>
+        internal static string TaiwanExitentrypermitActivityDescription {
+            get {
+                return ResourceManager.GetString("TaiwanExitentrypermitActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Taiwan Pass.
+        /// </summary>
+        internal static string TaiwanExitentrypermitActivityDisplayName {
+            get {
+                return ResourceManager.GetString("TaiwanExitentrypermitActivityDisplayName", resourceCulture);
             }
         }
         

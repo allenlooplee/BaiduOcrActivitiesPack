@@ -8,13 +8,13 @@ using UiPath.Shared.Activities;
 
 namespace Baidu.AI.Ocr.Activities
 {
-    [LocalizedDisplayName(nameof(Resources.HkMacauExitentrypermitActivityDisplayName))]
-    [LocalizedDescription(nameof(Resources.HkMacauExitentrypermitActivityDescription))]
-    public class HkMacauExitentrypermitActivity : BaiduOcrActivityBase
+    [LocalizedDisplayName(nameof(Resources.TaiwanExitentrypermitActivityDisplayName))]
+    [LocalizedDescription(nameof(Resources.TaiwanExitentrypermitActivityDescription))]
+    public class TaiwanExitentrypermitActivity : BaiduOcrActivityBase
     {
         protected override Task<JObject> InvokeBaiduOcrAsync(Baidu.Aip.Ocr.Ocr baiduOcr, byte[] image, AsyncCodeActivityContext context, CancellationToken cancellationToken)
         {
-            return Task.Run(() => baiduOcr.HkMacauExitentrypermit(image));
+            return Task.Run(() => baiduOcr.TaiwanExitentrypermit(image));
         }
     }
 }

@@ -14,8 +14,8 @@
 [身份证识别](https://ai.baidu.com/tech/ocr_cards/idcard)|卡证|[IdCardActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/IdCardActivity.cs)|2020-1-21|完成
 [户口本识别](https://ai.baidu.com/tech/ocr_cards/household_register)|卡证|[HouseholdRegisterActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/HouseholdRegisterActivity.cs)|2020-1-22|完成
 [出生医学证明识别](https://ai.baidu.com/tech/ocr_cards/birth_certificate)|卡证|[BirthCertificateActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/BirthCertificateActivity.cs)|2020-1-22|完成
-[护照识别](https://ai.baidu.com/tech/ocr_cards/passport)|卡证|[PassportActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/PassportActivity.cs)|2020-2-9|完成
-[港澳通行证识别](https://ai.baidu.com/tech/ocr_cards/HK_Macau_exitentrypermit)|卡证|HkMacauExitentrypermitActivity|2020-2-9|计划
+[护照识别](https://ai.baidu.com/tech/ocr_cards/passport)|卡证|[PassportActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/PassportActivity.cs)|2020-1-24|完成
+[港澳通行证识别](https://ai.baidu.com/tech/ocr_cards/HK_Macau_exitentrypermit)|卡证|[HkMacauExitentrypermitActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/HkMacauExitentrypermitActivity.cs)|2020-1-24|完成
 [台湾通行证识别](https://ai.baidu.com/tech/ocr_cards/taiwan_exitentrypermit)|卡证|TaiwanExitentrypermitActivity|2020-2-9|计划
 
 *其他文字识别活动将会陆续排期开发。*

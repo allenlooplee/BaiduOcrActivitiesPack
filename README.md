@@ -4,7 +4,9 @@
 
 [百度AI开放平台](https://ai.baidu.com/)提供多种文字识别，如增值税发票、营业执照、驾驶证等，可以用于多种RPA流程，我也在《RPA开发与应用》（即将出版）中详细讲解了如何在UiPath Studio中识别增值税发票。本代码库的目的是打通UiPath和百度文字识别，让开发者能在UiPath Studio中通过简单的拖放和设置把百度文字识别用到相关流程中，从而加速开发过程。
 
-## 开发计划和状态
+## 文字识别活动
+
+本活动包含有以下16个文字识别活动，用于常见的票据、卡证和汽车场景：
 
 #|名称|类型|活动|发布日期|任务状态
 ---|---|---|---|---|---
@@ -24,8 +26,6 @@
 14|[驾驶证识别](https://ai.baidu.com/tech/ocr_cars/driving_license)|汽车场景|DrivingLicenseActivity|2020-2-9|计划
 15|[机动车销售发票识别](https://ai.baidu.com/tech/ocr_cars/vehicle_invoice)|汽车场景|VehicleInvoiceActivity|2020-2-9|计划
 16|[车辆合格证识别](https://ai.baidu.com/tech/ocr_cars/vehicle_certificate)|汽车场景|VehicleCertificateActivity|2020-2-9|计划
-
-*其他文字识别活动将会陆续排期开发。*
 
 ## 安装
 

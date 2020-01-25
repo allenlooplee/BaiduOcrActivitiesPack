@@ -55,6 +55,10 @@ namespace Baidu.AI.Ocr.Activities.Design
             builder.AddCustomAttributes(typeof(TaiwanExitentrypermitActivity), new DesignerAttribute(typeof(TaiwanExitentrypermitActivityDesigner)));
             builder.AddCustomAttributes(typeof(TaiwanExitentrypermitActivity), new HelpKeywordAttribute("https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/README.md"));
 
+            builder.AddCustomAttributes(typeof(TrainTicketActivity), categoryAttribute);
+            builder.AddCustomAttributes(typeof(TrainTicketActivity), new DesignerAttribute(typeof(TrainTicketActivityDesigner)));
+            builder.AddCustomAttributes(typeof(TrainTicketActivity), new HelpKeywordAttribute("https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/README.md"));
+
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }
     }

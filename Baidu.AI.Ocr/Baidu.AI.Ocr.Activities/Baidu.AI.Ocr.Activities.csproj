@@ -65,6 +65,7 @@
     <Compile Include="Activities\QuotaInvoiceActivity.cs" />
     <Compile Include="Activities\TaiwanExitentrypermitActivity.cs" />
     <Compile Include="Activities\TaxiReceiptActivity.cs" />
+    <Compile Include="Activities\TrainTicketActivity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\SharedResources.cs" />
     <Compile Include="Properties\Resources.Designer.cs">

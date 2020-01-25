@@ -219,4 +219,10 @@
   <data name="TaiwanExitentrypermitActivityDisplayName" xml:space="preserve">
     <value>Taiwan Pass</value>
   </data>
+  <data name="TrainTicketActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a train ticket.</value>
+  </data>
+  <data name="TrainTicketActivityDisplayName" xml:space="preserve">
+    <value>Train Ticket</value>
+  </data>
 </root>

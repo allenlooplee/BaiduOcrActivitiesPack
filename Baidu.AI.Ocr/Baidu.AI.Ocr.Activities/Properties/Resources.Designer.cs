@@ -304,6 +304,24 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a train ticket..
+        /// </summary>
+        internal static string TrainTicketActivityDescription {
+            get {
+                return ResourceManager.GetString("TrainTicketActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Train Ticket.
+        /// </summary>
+        internal static string TrainTicketActivityDisplayName {
+            get {
+                return ResourceManager.GetString("TrainTicketActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Activity is only valid inside a Baidu OCR Scope..
         /// </summary>
         internal static string ValidationMessage {

@@ -115,6 +115,24 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a bank card..
+        /// </summary>
+        internal static string BankCardActivityDescription {
+            get {
+                return ResourceManager.GetString("BankCardActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bank Card.
+        /// </summary>
+        internal static string BankCardActivityDisplayName {
+            get {
+                return ResourceManager.GetString("BankCardActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Returns the recognized values of a birth certificate..
         /// </summary>
         internal static string BirthCertificateActivityDescription {

@@ -57,6 +57,7 @@
       <Link>Properties\Baidu.AI.OcrAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="Activities\BaiduOcrActivityBase.cs" />
+    <Compile Include="Activities\BankCardActivity.cs" />
     <Compile Include="Activities\BirthCertificateActivity.cs" />
     <Compile Include="Activities\BusinessLicenseActivity.cs" />
     <Compile Include="Activities\HkMacauExitentrypermitActivity.cs" />

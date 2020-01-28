@@ -133,6 +133,24 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a business license..
+        /// </summary>
+        internal static string BusinessLicenseActivityDescription {
+            get {
+                return ResourceManager.GetString("BusinessLicenseActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Business License.
+        /// </summary>
+        internal static string BusinessLicenseActivityDisplayName {
+            get {
+                return ResourceManager.GetString("BusinessLicenseActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Returns the recognized values of a HK and Macau pass..
         /// </summary>
         internal static string HkMacauExitentrypermitActivityDescription {

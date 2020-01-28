@@ -225,4 +225,10 @@
   <data name="TrainTicketActivityDisplayName" xml:space="preserve">
     <value>Train Ticket</value>
   </data>
+  <data name="BusinessLicenseActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a business license.</value>
+  </data>
+  <data name="BusinessLicenseActivityDisplayName" xml:space="preserve">
+    <value>Business License</value>
+  </data>
 </root>

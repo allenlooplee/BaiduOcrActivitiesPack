@@ -169,6 +169,24 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a driving license..
+        /// </summary>
+        internal static string DrivingLicenseActivityDescription {
+            get {
+                return ResourceManager.GetString("DrivingLicenseActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Driving License.
+        /// </summary>
+        internal static string DrivingLicenseActivityDisplayName {
+            get {
+                return ResourceManager.GetString("DrivingLicenseActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Returns the recognized values of a HK and Macau pass..
         /// </summary>
         internal static string HkMacauExitentrypermitActivityDescription {

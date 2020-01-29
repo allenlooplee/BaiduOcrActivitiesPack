@@ -60,6 +60,7 @@
     <Compile Include="Activities\BankCardActivity.cs" />
     <Compile Include="Activities\BirthCertificateActivity.cs" />
     <Compile Include="Activities\BusinessLicenseActivity.cs" />
+    <Compile Include="Activities\DrivingLicenseActivity.cs" />
     <Compile Include="Activities\HkMacauExitentrypermitActivity.cs" />
     <Compile Include="Activities\HouseholdRegisterActivity.cs" />
     <Compile Include="Activities\IdCardActivity.cs" />

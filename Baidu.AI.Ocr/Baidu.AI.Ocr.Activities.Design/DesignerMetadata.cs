@@ -14,7 +14,6 @@ namespace Baidu.AI.Ocr.Activities.Design
 
             var categoryAttribute =  new CategoryAttribute($"{Resources.Category}");
 
-
             builder.AddCustomAttributes(typeof(BaiduOcrScope), categoryAttribute);
             builder.AddCustomAttributes(typeof(BaiduOcrScope), new DesignerAttribute(typeof(BaiduOcrScopeDesigner)));
             builder.AddCustomAttributes(typeof(BaiduOcrScope), new HelpKeywordAttribute("https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/README.md"));
@@ -70,6 +69,10 @@ namespace Baidu.AI.Ocr.Activities.Design
             builder.AddCustomAttributes(typeof(VehicleLicenseActivity), categoryAttribute);
             builder.AddCustomAttributes(typeof(VehicleLicenseActivity), new DesignerAttribute(typeof(VehicleLicenseActivityDesigner)));
             builder.AddCustomAttributes(typeof(VehicleLicenseActivity), new HelpKeywordAttribute("https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/README.md"));
+
+            builder.AddCustomAttributes(typeof(DrivingLicenseActivity), categoryAttribute);
+            builder.AddCustomAttributes(typeof(DrivingLicenseActivity), new DesignerAttribute(typeof(DrivingLicenseActivityDesigner)));
+            builder.AddCustomAttributes(typeof(DrivingLicenseActivity), new HelpKeywordAttribute("https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/README.md"));
 
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }

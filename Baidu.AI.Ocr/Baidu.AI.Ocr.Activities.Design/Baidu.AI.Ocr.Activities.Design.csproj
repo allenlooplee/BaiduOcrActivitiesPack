@@ -62,6 +62,9 @@
     <Compile Include="Designers\BusinessLicenseActivityDesigner.xaml.cs">
       <DependentUpon>BusinessLicenseActivityDesigner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Designers\DrivingLicenseActivityDesigner.xaml.cs">
+      <DependentUpon>DrivingLicenseActivityDesigner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Designers\HkMacauExitentrypermitActivityDesigner.xaml.cs">
       <DependentUpon>HkMacauExitentrypermitActivityDesigner.xaml</DependentUpon>
     </Compile>
@@ -131,6 +134,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Designers\BusinessLicenseActivityDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Designers\DrivingLicenseActivityDesigner.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -237,4 +237,10 @@
   <data name="BankCardActivityDisplayName" xml:space="preserve">
     <value>Bank Card</value>
   </data>
+  <data name="VehicleLicenseActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a vehicle license.</value>
+  </data>
+  <data name="VehicleLicenseActivityDisplayName" xml:space="preserve">
+    <value>Vehicle License</value>
+  </data>
 </root>

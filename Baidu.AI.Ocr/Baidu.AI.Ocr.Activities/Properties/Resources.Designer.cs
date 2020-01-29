@@ -383,5 +383,23 @@ namespace Baidu.AI.Ocr.Activities.Properties {
                 return ResourceManager.GetString("VatInvoiceActivityDisplayName", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a vehicle license..
+        /// </summary>
+        internal static string VehicleLicenseActivityDescription {
+            get {
+                return ResourceManager.GetString("VehicleLicenseActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vehicle License.
+        /// </summary>
+        internal static string VehicleLicenseActivityDisplayName {
+            get {
+                return ResourceManager.GetString("VehicleLicenseActivityDisplayName", resourceCulture);
+            }
+        }
     }
 }

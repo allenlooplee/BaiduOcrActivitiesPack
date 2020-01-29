@@ -89,6 +89,9 @@
     <Compile Include="Designers\TrainTicketActivityDesigner.xaml.cs">
       <DependentUpon>TrainTicketActivityDesigner.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Designers\VehicleInvoiceActivityDesigner.xaml.cs">
+      <DependentUpon>VehicleInvoiceActivityDesigner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Designers\VehicleLicenseActivityDesigner.xaml.cs">
       <DependentUpon>VehicleLicenseActivityDesigner.xaml</DependentUpon>
     </Compile>
@@ -178,6 +181,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Designers\BaiduOcrScopeDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Designers\VehicleInvoiceActivityDesigner.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

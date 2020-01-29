@@ -249,4 +249,10 @@
   <data name="VehicleLicenseActivityDisplayName" xml:space="preserve">
     <value>Vehicle License</value>
   </data>
+  <data name="VehicleInvoiceActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a vehicle invoice.</value>
+  </data>
+  <data name="VehicleInvoiceActivityDisplayName" xml:space="preserve">
+    <value>Vehicle Invoice</value>
+  </data>
 </root>

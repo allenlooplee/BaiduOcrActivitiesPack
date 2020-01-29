@@ -97,20 +97,20 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Baidu OCR Scope.
-        /// </summary>
-        internal static string BaiduOcrScope {
-            get {
-                return ResourceManager.GetString("BaiduOcrScope", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Contains and authenticates all Baidu OCR activities..
         /// </summary>
         internal static string BaiduOcrScopeDescription {
             get {
                 return ResourceManager.GetString("BaiduOcrScopeDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baidu OCR Scope.
+        /// </summary>
+        internal static string BaiduOcrScopeDisplayName {
+            get {
+                return ResourceManager.GetString("BaiduOcrScopeDisplayName", resourceCulture);
             }
         }
         

@@ -12,7 +12,7 @@ namespace Baidu.AI.Ocr.Activities
 {
 
     [LocalizedDescription(nameof(Resources.BaiduOcrScopeDescription))]
-    [LocalizedDisplayName(nameof(Resources.BaiduOcrScope))]
+    [LocalizedDisplayName(nameof(Resources.BaiduOcrScopeDisplayName))]
     public class BaiduOcrScope : AsyncTaskNativeActivity
     {
 		#region Properties

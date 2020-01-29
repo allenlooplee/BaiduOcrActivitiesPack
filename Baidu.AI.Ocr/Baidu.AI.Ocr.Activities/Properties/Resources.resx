@@ -125,7 +125,7 @@
     <value>Output</value>
     <comment>property group</comment>
   </data>
-  <data name="BaiduOcrScope" xml:space="preserve">
+  <data name="BaiduOcrScopeDisplayName" xml:space="preserve">
     <value>Baidu OCR Scope</value>
     <comment>display name</comment>
   </data>

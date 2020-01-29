@@ -22,7 +22,7 @@ namespace Baidu.AI.Ocr.Activities.Design.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Baidu.AI.Ocr.Activities.Design.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Baidu.AI.Ocr.Activities.Design.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Baidu.AI.Ocr.Activities.Design.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Baidu.AI.Ocr.Activities.Design.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Baidu.Ocr.
         /// </summary>
-        internal static string Category {
+        public static string Category {
             get {
                 return ResourceManager.GetString("Category", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Baidu.AI.Ocr.Activities.Design.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Collection.
         /// </summary>
-        internal static string Collection {
+        public static string Collection {
             get {
                 return ResourceManager.GetString("Collection", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Baidu.AI.Ocr.Activities.Design.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Do.
         /// </summary>
-        internal static string Do {
+        public static string Do {
             get {
                 return ResourceManager.GetString("Do", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Baidu.AI.Ocr.Activities.Design.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Double-click to view.
         /// </summary>
-        internal static string DoubleClickToView {
+        public static string DoubleClickToView {
             get {
                 return ResourceManager.GetString("DoubleClickToView", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace Baidu.AI.Ocr.Activities.Design.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Drop Activity Here.
         /// </summary>
-        internal static string DropActivityHere {
+        public static string DropActivityHere {
             get {
                 return ResourceManager.GetString("DropActivityHere", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace Baidu.AI.Ocr.Activities.Design.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Editing.
         /// </summary>
-        internal static string Editing {
+        public static string Editing {
             get {
                 return ResourceManager.GetString("Editing", resourceCulture);
             }

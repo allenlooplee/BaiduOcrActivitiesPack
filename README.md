@@ -22,8 +22,8 @@
 10|[台湾通行证识别](https://ai.baidu.com/tech/ocr_cards/taiwan_exitentrypermit)|卡证|[TaiwanExitentrypermitActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/TaiwanExitentrypermitActivity.cs)|2020-1-24|完成
 11|[营业执照识别](https://ai.baidu.com/tech/ocr_cards/business)|卡证|[BusinessLicenseActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/BusinessLicenseActivity.cs)|2020-1-28|完成
 12|[银行卡识别](https://ai.baidu.com/tech/ocr_cards/bankcard)|卡证|[BankCardActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/BankCardActivity.cs)|2020-1-28|完成
-13|[行驶证识别](https://ai.baidu.com/tech/ocr_cars/vehicle_license)|汽车场景|VehicleLicenseActivity|2020-2-9|计划
-14|[驾驶证识别](https://ai.baidu.com/tech/ocr_cars/driving_license)|汽车场景|DrivingLicenseActivity|2020-2-9|计划
+13|[行驶证识别](https://ai.baidu.com/tech/ocr_cars/vehicle_license)|汽车场景|[VehicleLicenseActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/VehicleLicenseActivity.cs)|2020-1-29|完成
+14|[驾驶证识别](https://ai.baidu.com/tech/ocr_cars/driving_license)|汽车场景|[DrivingLicenseActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/DrivingLicenseActivity.cs)|2020-1-29|完成
 15|[机动车销售发票识别](https://ai.baidu.com/tech/ocr_cars/vehicle_invoice)|汽车场景|VehicleInvoiceActivity|2020-2-9|计划
 16|[车辆合格证识别](https://ai.baidu.com/tech/ocr_cars/vehicle_certificate)|汽车场景|VehicleCertificateActivity|2020-2-9|计划
 

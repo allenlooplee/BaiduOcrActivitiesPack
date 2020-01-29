@@ -403,6 +403,24 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Returns the recognized values of a vehicle certificate..
+        /// </summary>
+        internal static string VehicleCertificateActivityDescription {
+            get {
+                return ResourceManager.GetString("VehicleCertificateActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vehicle Certificate.
+        /// </summary>
+        internal static string VehicleCertificateActivityDisplayName {
+            get {
+                return ResourceManager.GetString("VehicleCertificateActivityDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Returns the recognized values of a vehicle invoice..
         /// </summary>
         internal static string VehicleInvoiceActivityDescription {

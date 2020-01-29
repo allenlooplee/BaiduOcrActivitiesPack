@@ -255,4 +255,10 @@
   <data name="VehicleInvoiceActivityDisplayName" xml:space="preserve">
     <value>Vehicle Invoice</value>
   </data>
+  <data name="VehicleCertificateActivityDescription" xml:space="preserve">
+    <value>Returns the recognized values of a vehicle certificate.</value>
+  </data>
+  <data name="VehicleCertificateActivityDisplayName" xml:space="preserve">
+    <value>Vehicle Certificate</value>
+  </data>
 </root>

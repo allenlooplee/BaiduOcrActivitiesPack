@@ -46,7 +46,8 @@ namespace Baidu.AI.Ocr.Activities.Design
                 [typeof(BankCardActivity)] = typeof(BankCardActivityDesigner),
                 [typeof(VehicleLicenseActivity)] = typeof(VehicleLicenseActivityDesigner),
                 [typeof(DrivingLicenseActivity)] = typeof(DrivingLicenseActivityDesigner),
-                [typeof(VehicleInvoiceActivity)] = typeof(VehicleInvoiceActivityDesigner)
+                [typeof(VehicleInvoiceActivity)] = typeof(VehicleInvoiceActivityDesigner),
+                [typeof(VehicleCertificateActivity)] = typeof(VehicleCertificateActivityDesigner)
             };
         }
     }

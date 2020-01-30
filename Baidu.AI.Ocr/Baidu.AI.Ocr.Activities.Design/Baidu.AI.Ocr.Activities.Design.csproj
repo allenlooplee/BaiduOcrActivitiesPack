@@ -221,7 +221,7 @@
   <PropertyGroup>
     <PostBuildEvent>
       if exist $(TargetDir)Packages\Baidu.AI.Ocr*.* del $(TargetDir)Packages\Baidu.AI.Ocr*.*
-      if $(ConfigurationName) == Debug "$(SolutionDir).nuget\NuGet.exe" pack "$(ProjectPath)" -OutputDirectory "Packages" -IncludeReferencedProjects -Prop Configuration=$(ConfigurationName)
-    </PostBuildEvent>
+      "$(SolutionDir).nuget\NuGet.exe" pack "$(ProjectPath)" -OutputDirectory "Packages" -IncludeReferencedProjects -Prop Configuration=$(ConfigurationName)
+</PostBuildEvent>
   </PropertyGroup>
 </Project>

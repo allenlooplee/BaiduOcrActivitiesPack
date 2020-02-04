@@ -342,3 +342,4 @@ tests/Baidu.AI.Ocr.Tests/.local/AllDependencies.json
 tests/Baidu.AI.Ocr.Tests/.local/nuget.cache.backup
 tests/Baidu.AI.Ocr.Tests/.local/PackageCache.json
 tests/Baidu.AI.Ocr.Tests/.local/ProjectSettings.json
+/ops/CreateBaiduOcrApplication/.local

@@ -39,9 +39,9 @@
 
 ![使用百度文字识别活动](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Use.PNG)
 
-安装好本活动包之后，你会在Activities面板上看到相关的活动，把你想使用的文字识别活动拖到Designer面板，然后在Properties面板上指定你想识别的图片就行了，识别结果将以[JObject](https://github.com/JamesNK/Newtonsoft.Json/blob/master/Src/Newtonsoft.Json/Linq/JObject.cs)对象返回。
+1. **创建文字识别应用**。执行ops/CreateBaiduOcrApplication流程，它会自动登录百度AI开放平台，创建文字识别应用，并获取API Key和Secret Key。在执行这个流程之前，你需要确保Chrome浏览器已经就绪，并在config/AppKeys.xlsx中填写百度账号的用户名和密码，以及将要创建的文字识别应用的名称和描述。在执行这个流程之后，API Key和Secret Key会保存在config/AppKeys.xlsx中。
 
-*注意：所有文字识别活动都要放在BaiduOcrScope中，在使用文字识别活动之前，你需要在百度AI开放平台注册账号，创建文字识别应用，获取API Key和Secret Key，并填入BaiduOcrScope的相应属性中。*
+2. **使用文字识别活动**。在UiPath Studio中创建流程并安装文字识别活动包，从Activities面板把BaiduOcrScope活动拖到Designer面板，在Properties面板上设置API Key和Secret Key属性；从Activities面板把你想用的文字识别活动拖到BaiduOcrScope活动中，在Properties面板上设置ImagePath属性，识别结果将以[JObject](https://github.com/JamesNK/Newtonsoft.Json/blob/master/Src/Newtonsoft.Json/Linq/JObject.cs)对象返回。
 
 ## 创建活动和生成项目
 

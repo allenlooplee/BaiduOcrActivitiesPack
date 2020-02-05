@@ -56,7 +56,7 @@
       <Variable x:TypeArguments="x:String" Name="secretKey" />
       <Variable x:TypeArguments="sd:DataTable" Name="appKeys" />
       <Variable x:TypeArguments="sd:DataRow" Name="targetRow" />
-      <Variable x:TypeArguments="x:String" Default="config\AppKeys.xlsx" Name="configPath" />
+      <Variable x:TypeArguments="x:String" Default="..\config\AppKeys.xlsx" Name="configPath" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">

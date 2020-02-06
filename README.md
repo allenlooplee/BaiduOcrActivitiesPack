@@ -39,9 +39,9 @@
 
 ![使用百度文字识别活动](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Use.PNG)
 
-1. **创建文字识别应用**。执行[ops/CreateBaiduOcrApplication](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/ops/CreateBaiduOcrApplication/Main.xaml)流程，它会自动登录百度AI开放平台，创建文字识别应用，并获取API Key和Secret Key。在执行这个流程之前，你需要确保Chrome浏览器已经就绪，并在ops/config/AppKeys.xlsx中填写百度账号的用户名和密码，以及将要创建的文字识别应用的名称和描述。在执行这个流程之后，API Key和Secret Key会保存在ops/config/AppKeys.xlsx中。
+1. **创建文字识别应用**。执行[ops/CreateBaiduOcrApplication](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/ops/CreateBaiduOcrApplication/Main.xaml)流程，它会自动登录百度AI开放平台，创建文字识别应用，并获取API Key和Secret Key。*注意：在执行这个流程之前，你需要确保Chrome浏览器已经就绪，并在ops/config/AppKeys.xlsx中填写百度账号的用户名和密码，以及将要创建的文字识别应用的名称和描述；在执行这个流程之后，API Key和Secret Key会保存在ops/config/AppKeys.xlsx中。*
 
-2. **使用文字识别活动**。在UiPath Studio中创建流程并安装文字识别活动包，从Activities面板把BaiduOcrScope活动拖到Designer面板，在Properties面板上设置API Key和Secret Key属性；从Activities面板把你想用的文字识别活动拖到BaiduOcrScope活动中，在Properties面板上设置ImagePath属性，识别结果将以[JObject](https://github.com/JamesNK/Newtonsoft.Json/blob/master/Src/Newtonsoft.Json/Linq/JObject.cs)对象返回。
+2. **创建文字识别流程**。使用[templates/BaiduOcrBasicProcess](https://github.com/allenlooplee/BaiduOcrActivitiesPack/tree/master/templates/BaiduOcrBasicProcess)模版创建流程，在Load Image中获取需要识别的图片路径，在Process Image中使用文字识别活动、获取并使用识别结果和归档已处理的图片。*注意：识别结果将以[JObject](https://github.com/JamesNK/Newtonsoft.Json/blob/master/Src/Newtonsoft.Json/Linq/JObject.cs)对象返回。*
 
 ## 创建活动和生成项目
 
@@ -49,7 +49,7 @@
 1. **创建活动**。在Baidu.AI.Ocr.Activities项目中创建一个Simple Activity，放在Activities文件夹中，并让它继承自[BaiduOcrActivityBase](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/BaiduOcrActivityBase.cs)，你可以仿照[VatInvoiceActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/VatInvoiceActivity.cs)来实现新的活动。
 2. **本地化活动**。在Baidu.AI.Ocr.Activities项目的Resources.resx中添加DisplayName和Description两项，并把它们应用到活动上，活动在UiPath Studio中显示的名称和描述就来自这两项。
 3. **创建活动设计器**。在Baidu.AI.Ocr.Activities.Design项目中创建一个Simple Activity Designer，放在Designers文件夹中。如果你没有特殊需求则不必修改。
-4. **创建活动图标**。在Baidu.AI.Ocr.Activities.Design项目的[Themes\Icons.xaml](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities.Design/Themes/Icons.xaml)中添加一个DrawingBrush，并把x:Key的值设为XXXIcon，其中XXX是活动名，如VatInvoiceActivityIcon。
+4. **创建活动图标**。在Baidu.AI.Ocr.Activities.Design项目的[Themes/Icons.xaml](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities.Design/Themes/Icons.xaml)中添加一个DrawingBrush，并把x:Key的值设为XXXIcon，其中XXX是活动名，如VatInvoiceActivityIcon。
 5. **关联活动和活动设计器**。在Baidu.AI.Ocr.Activities.Design项目的[DesignerMetadata.cs](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities.Design/DesignerMetadata.cs)中设置活动的类别、设计器和帮助链接。
 
 如果你想自行生成项目，你需要安装以下工具：

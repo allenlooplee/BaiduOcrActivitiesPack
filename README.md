@@ -39,9 +39,16 @@
 
 ![使用百度文字识别活动](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Use.PNG)
 
-1. **创建文字识别应用**。执行[ops/CreateBaiduOcrApplication](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/ops/CreateBaiduOcrApplication/Main.xaml)流程，它会自动登录百度AI开放平台，创建文字识别应用，并获取API Key和Secret Key。*注意：在执行这个流程之前，你需要确保Chrome浏览器已经就绪，并在ops/config/AppKeys.xlsx中填写百度账号的用户名和密码，以及将要创建的文字识别应用的名称和描述；在执行这个流程之后，API Key和Secret Key会保存在ops/config/AppKeys.xlsx中。*
+如果你想在现有的流程或者空白的流程中使用百度文字识别活动，你可以遵循以下步骤：
+1. 把Baidu OCR Scope活动从Activities面板拖到Designer面板，并设置ApiKey和SecretKey属性；
+2. 把你想使用的文字识别活动从Activities面板拖到Baidu OCR Scope活动中，并设置ImagePath属性和Result属性；
+3. 从Result属性提取你想使用的信息。
 
-2. 使用[templates/BaiduOcrBasicProcess](https://github.com/allenlooplee/BaiduOcrActivitiesPack/tree/master/templates/BaiduOcrBasicProcess)模版创建文字识别流程，详情参见[百度文字识别基本流程](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/baidu-ocr-basic-process.md)。
+> 注意：识别结果将以[JObject](https://github.com/JamesNK/Newtonsoft.Json/blob/master/Src/Newtonsoft.Json/Linq/JObject.cs)对象返回。
+
+如果你想使用[templates/BaiduOcrBasicProcess](https://github.com/allenlooplee/BaiduOcrActivitiesPack/tree/master/templates/BaiduOcrBasicProcess)模版创建文字识别流程，你可以查阅[它的文档](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/baidu-ocr-basic-process.md)。
+
+在首次使用百度文字识别活动之前，你需要执行[ops/CreateBaiduOcrApplication](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/ops/CreateBaiduOcrApplication/Main.xaml)流程，它会自动登录百度AI开放平台，创建文字识别应用，并获取API Key和Secret Key。在执行这个流程之前，你需要确保Chrome浏览器已经准备就绪，并在ops/config/AppKeys.xlsx中填写百度账号的用户名和密码，以及将要创建的文字识别应用的名称和描述；在执行这个流程之后，API Key和Secret Key会保存在ops/config/AppKeys.xlsx中。
 
 ## 创建活动和生成项目
 

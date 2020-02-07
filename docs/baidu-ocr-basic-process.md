@@ -2,7 +2,7 @@
 
 ![百度文字识别基本流程](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/baidu-ocr-basic-process.PNG)
 
-“百度文字识别基本流程”（[templates/BaiduOcrBasicProcess](https://github.com/allenlooplee/BaiduOcrActivitiesPack/tree/master/templates/BaiduOcrBasicProcess)）是一个基于“流程图”的项目模版，针对使用“百度文字识别活动包”的流程进行了优化。
+“百度文字识别基本流程”是一个基于“流程图”的项目模版，针对使用“百度文字识别活动包”的流程进行了优化。你可以从[templates/BaiduOcrBasicProcess](https://github.com/allenlooplee/BaiduOcrActivitiesPack/tree/master/templates/BaiduOcrBasicProcess)下载这个模版。
 
 > 注意：因为百度文字识别活动包还没发布到UiPath Go，所以在使用这个项目模版时需要手动更新百度文字识别活动包，你可以到[GitHub Releases](https://github.com/allenlooplee/BaiduOcrActivitiesPack/releases)下载最新的版本。
 

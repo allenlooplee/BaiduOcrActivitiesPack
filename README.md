@@ -27,7 +27,7 @@
 15|[机动车销售发票识别](https://ai.baidu.com/tech/ocr_cars/vehicle_invoice)|汽车场景|[VehicleInvoiceActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/VehicleInvoiceActivity.cs)|2020-1-29|完成
 16|[车辆合格证识别](https://ai.baidu.com/tech/ocr_cars/vehicle_certificate)|汽车场景|[VehicleCertificateActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/VehicleCertificateActivity.cs)|2020-1-29|完成
 
-## 安装
+## 安装文字识别活动包
 
 ![安装百度文字识别活动包](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Install.PNG)
 
@@ -35,7 +35,7 @@
 
 *本活动包也将发布到[UiPath Go](https://go.uipath.com/)。*
 
-## 使用
+## 使用文字识别活动
 
 ![使用百度文字识别活动](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Use.PNG)
 

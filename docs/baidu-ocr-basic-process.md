@@ -1,26 +1,26 @@
-# Baidu OCR Basic Process
+# 百度文字识别基本流程
 
-The Baidu OCR Basic Process is a project template based on a Flowchart, optimized for processes using Baidu OCR Activities Pack.
+“百度文字识别基本流程”是一个基于“流程图”的项目模版，已针对使用“百度文字识别活动包”的流程进行优化。
 
+![百度文字识别基本流程](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/baidu-ocr-basic-process.PNG)
 
+此模板包含几个预先生成的容器，如下所示：
 
-This template contains several pre-made containers, as follows:
-
-## Initialize Sequence
-
-
-
-## Load Image Sequence
+## 初始化序列
 
 
 
-## Flow Decision
+## 加载图片序列
 
 
 
-## Process Image Sequence
+## 流程决策
 
 
 
-## Finalize Sequence
+## 处理图片序列
+
+
+
+## 结束序列
 

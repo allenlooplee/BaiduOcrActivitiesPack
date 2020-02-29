@@ -344,3 +344,7 @@ tests/Baidu.AI.Ocr.Tests/.local/PackageCache.json
 tests/Baidu.AI.Ocr.Tests/.local/ProjectSettings.json
 /ops/CreateBaiduOcrApplication/.local
 /templates/BaiduOcrBasicProcess/.local
+/tests/BaiduOcrBasicTests/.local
+/tests/BaiduOcrBasicTests/Logs
+/tests/BaiduOcrBasicTests/.screenshots
+/tests/BaiduOcrBasicTests/Tests_Examples_Templates/UnitTest_Examples

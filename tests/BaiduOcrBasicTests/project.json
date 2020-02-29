@@ -1,18 +1,20 @@
 {
-  "name": "Baidu.AI.Ocr.Tests",
-  "description": "Tests for Baidu OCR Activities Pack",
-  "main": "Main.xaml",
+  "name": "BaiduOcrBasicTests",
+  "description": "Basic tests for Baidu OCR Activities Pack",
+  "main": "RunAllTests.xaml",
   "dependencies": {
     "Baidu.AI.Ocr.Activities": "[0.2.0]",
-    "UiPath.Excel.Activities": "[2.8.0-preview]",
-    "UiPath.Mail.Activities": "[1.8.0-preview]",
-    "UiPath.System.Activities": "[19.12.0-preview]",
-    "UiPath.UIAutomation.Activities": "[19.12.0-preview]"
+    "Custom.Activities.VariableComparer": "[2.1.6]",
+    "TestingFrameworkUi": "[1.3.3]",
+    "UiPath.Excel.Activities": "[2.5.2]",
+    "UiPath.Mail.Activities": "[1.3.0]",
+    "UiPath.System.Activities": "[19.2.0]",
+    "UiPath.UIAutomation.Activities": "[19.2.0]"
   },
   "webServices": [],
   "schemaVersion": "4.0",
   "studioVersion": "19.10.2.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.6779.38472",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,

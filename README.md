@@ -9,7 +9,7 @@
 在UiPath Studio中使用百度文字识别活动包可以遵循以下步骤：
 1. **创建应用**：在百度AI开放平台上创建文字识别应用，并把API Key和Secret Key保存到ops/config/AppKeys.xlsx。
 2. **创建项目**：使用[templates/BaiduOcrBasicProcess](https://github.com/allenlooplee/BaiduOcrActivitiesPack/tree/master/templates/BaiduOcrBasicProcess)模版创建文字识别流程，你可以查阅[它的文档](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/baidu-ocr-basic-process.md)。
-3. **安装活动包**：下载并[安装百度文字识别活动包](https://github.com/allenlooplee/BaiduOcrActivitiesPack#%E5%AE%89%E8%A3%85%E6%96%87%E5%AD%97%E8%AF%86%E5%88%AB%E6%B4%BB%E5%8A%A8%E5%8C%85)。
+3. **安装活动包**：下载并安装百度文字识别活动包。
 
 ## 安装文字识别活动包
 

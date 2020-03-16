@@ -10,6 +10,7 @@
 1. **创建应用**：在百度AI开放平台上创建文字识别应用，并把API Key和Secret Key保存到ops/config/AppKeys.xlsx。
 2. **创建项目**：使用[templates/BaiduOcrBasicProcess](https://github.com/allenlooplee/BaiduOcrActivitiesPack/tree/master/templates/BaiduOcrBasicProcess)模版创建文字识别流程，你可以查阅[它的文档](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/baidu-ocr-basic-process.md)。
 3. **安装活动包**：下载并安装百度文字识别活动包。
+4. **使用活动**：拖出你想使用的文字识别活动。
 
 ## 安装文字识别活动包
 

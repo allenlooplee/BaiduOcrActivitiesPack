@@ -74,7 +74,7 @@ Visual Studio用来打开[活动包项目](https://github.com/allenlooplee/Baidu
 * [百度AI开放平台 .NET SDK](https://github.com/Baidu-AIP/dotnet-sdk)
 * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json)
 * [百度文字识别API文档](https://ai.baidu.com/ai-doc/OCR/Ek3h7xypm)
-* [Quick Start: The 5 minute activity set](https://docs.uipath.com/integrations/docs/quick-start)
+* [How to Create Activities](https://docs.uipath.com/integrations/docs/how-to-create-activities)
 * [Testing Framework for UiPath](https://connect.uipath.com/marketplace/components/uipath-testing-framework)
 * [Windows Workflow Foundation](https://docs.microsoft.com/en-us/dotnet/framework/windows-workflow-foundation/)
 * [Windows Presentation Foundation](https://docs.microsoft.com/en-us/dotnet/framework/wpf/)

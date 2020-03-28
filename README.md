@@ -71,9 +71,9 @@ Visual Studio用来打开[活动包项目](https://github.com/allenlooplee/Baidu
 16|[车辆合格证识别](https://ai.baidu.com/tech/ocr_cars/vehicle_certificate)|汽车场景|[VehicleCertificateActivity](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/Baidu.AI.Ocr/Baidu.AI.Ocr.Activities/Activities/VehicleCertificateActivity.cs)|2020-1-29|完成
 
 ## 其他代码库和参考资料
+* [百度文字识别API文档](https://ai.baidu.com/ai-doc/OCR/Ek3h7xypm)
 * [百度AI开放平台 .NET SDK](https://github.com/Baidu-AIP/dotnet-sdk)
 * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json)
-* [百度文字识别API文档](https://ai.baidu.com/ai-doc/OCR/Ek3h7xypm)
 * [How to Create Activities](https://docs.uipath.com/integrations/docs/how-to-create-activities)
 * [Testing Framework for UiPath](https://connect.uipath.com/marketplace/components/uipath-testing-framework)
 * [Windows Workflow Foundation](https://docs.microsoft.com/en-us/dotnet/framework/windows-workflow-foundation/)

@@ -16,9 +16,7 @@
 
 ![安装百度文字识别活动包](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Install.PNG)
 
-本活动包目前还在开发当中，如果你想在UiPath Studio中提前体验一下，可以到GitHub Releases下载[v0.2.0 Pre-release](https://github.com/allenlooplee/BaiduOcrActivitiesPack/releases/tag/v0.2.0)，然后到UiPath Studio的Manage Packages安装活动包。
-
-*本活动包也将发布到[UiPath Go](https://go.uipath.com/)。*
+本活动包目前还在开发当中，如果你想在UiPath Studio中提前体验一下，可以到GitHub Releases下载[v0.2.0 pre-release](https://github.com/allenlooplee/BaiduOcrActivitiesPack/releases/tag/v0.2.0)，然后到UiPath Studio的Manage Packages安装活动包。
 
 ## 使用文字识别活动
 

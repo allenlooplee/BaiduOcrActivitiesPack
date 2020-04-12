@@ -61,7 +61,7 @@ namespace Baidu.AI.Ocr.Activities.Design.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Baidu.Ocr.
+        ///   Looks up a localized string similar to Baidu.OCR.
         /// </summary>
         public static string Category {
             get {

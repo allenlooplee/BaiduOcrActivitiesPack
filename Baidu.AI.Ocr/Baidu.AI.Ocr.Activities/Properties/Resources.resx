@@ -117,148 +117,84 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Input" xml:space="preserve">
-    <value>Input</value>
-    <comment>property group</comment>
+  <data name="ContinueOnError_Description" xml:space="preserve">
+    <value>If set, continue executing the remaining activities even if the current activity has failed.</value>
+    <comment>property description</comment>
   </data>
-  <data name="Output" xml:space="preserve">
-    <value>Output</value>
-    <comment>property group</comment>
-  </data>
-  <data name="BaiduOcrScopeDisplayName" xml:space="preserve">
-    <value>Baidu OCR Scope</value>
-    <comment>display name</comment>
-  </data>
-  <data name="BaiduOcrScopeDescription" xml:space="preserve">
-    <value>Contains and authenticates all Baidu OCR activities.</value>
-    <comment>description</comment>
-  </data>
-  <data name="MetadataValidationError" xml:space="preserve">
-    <value>Please provide a value for {0}.</value>
-    <comment>validation error</comment>
-  </data>
-  <data name="VatInvoiceActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a VAT invoice.</value>
-    <comment>description</comment>
-  </data>
-  <data name="VatInvoiceActivityDisplayName" xml:space="preserve">
-    <value>VAT Invoice</value>
-    <comment>display name</comment>
-  </data>
-  <data name="BaiduOcrActivityResultDescription" xml:space="preserve">
-    <value>The result of the recognition in the form of JSON.</value>
-    <comment>description</comment>
-  </data>
-  <data name="BaiduOcrActivityResultDisplayName" xml:space="preserve">
-    <value>Result</value>
-    <comment>display name</comment>
-  </data>
-  <data name="ValidationMessage" xml:space="preserve">
-    <value>Activity is only valid inside a Baidu OCR Scope.</value>
-    <comment>validation message</comment>
-  </data>
-  <data name="BaiduOcrActivityImagePathDescription" xml:space="preserve">
-    <value>The file path to the image for recognition.</value>
-    <comment>description</comment>
-  </data>
-  <data name="BaiduOcrActivityImagePathDisplayName" xml:space="preserve">
-    <value>ImagePath</value>
+  <data name="ContinueOnError_DisplayName" xml:space="preserve">
+    <value>ContinueOnError</value>
     <comment>property name</comment>
   </data>
-  <data name="QuotaInvoiceActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a quota invoice.</value>
+  <data name="Timeout_Description" xml:space="preserve">
+    <value>Specifies the amount of time (in milliseconds) to wait for the activity to run before an error is thrown. The default value is 60000 (1 minute).</value>
+    <comment>property description</comment>
   </data>
-  <data name="QuotaInvoiceActivityDisplayName" xml:space="preserve">
-    <value>Quota Invoice</value>
+  <data name="Timeout_DisplayName" xml:space="preserve">
+    <value>Timeout (milliseconds)</value>
+    <comment>property name</comment>
   </data>
-  <data name="TaxiReceiptActivityDisplayName" xml:space="preserve">
-    <value>Taxi Receipt</value>
+  <data name="Timeout_Error" xml:space="preserve">
+    <value>The activity timed out and was canceled.</value>
+    <comment>error message</comment>
   </data>
-  <data name="TaxiReceiptActivityescription" xml:space="preserve">
-    <value>Returns the recognized values of a taxi receipt.</value>
+  <data name="Do" xml:space="preserve">
+    <value>Do</value>
+    <comment>generic</comment>
   </data>
-  <data name="IdCardActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of an ID Card. Front and back sides to be recognized separately.</value>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Common</value>
+    <comment>category</comment>
   </data>
-  <data name="IdCardActivityDisplayName" xml:space="preserve">
-    <value>ID Card</value>
+  <data name="Authentication_Category" xml:space="preserve">
+    <value>Authentication</value>
+    <comment>category</comment>
   </data>
-  <data name="IdCardSideDescription" xml:space="preserve">
-    <value>ID card side, front or back.</value>
+  <data name="Input_Category" xml:space="preserve">
+    <value>Input</value>
+    <comment>category</comment>
   </data>
-  <data name="IdCardSideDisplayName" xml:space="preserve">
-    <value>IdCardSide</value>
+  <data name="Output_Category" xml:space="preserve">
+    <value>Output</value>
+    <comment>category</comment>
   </data>
-  <data name="HouseholdRegisterActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a household register.</value>
+  <data name="Options_Category" xml:space="preserve">
+    <value>Options</value>
+    <comment>category</comment>
   </data>
-  <data name="HouseholdRegisterActivityDisplayName" xml:space="preserve">
-    <value>Household Register</value>
+  <data name="ValidationScope_Error" xml:space="preserve">
+    <value>Cannot be used outside of a {0}.</value>
+    <comment>error message; {0} is a container activity (e.g. a scope)</comment>
   </data>
-  <data name="BirthCertificateActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a birth certificate.</value>
+  <data name="ValidationValue_Error" xml:space="preserve">
+    <value>Please provide a value for {0}.</value>
+    <comment>error message; {0} is the name of a missing property</comment>
   </data>
-  <data name="BirthCertificateActivityDisplayName" xml:space="preserve">
-    <value>Birth Certificate</value>
+  <data name="ValidationExclusiveProperties_Error" xml:space="preserve">
+    <value>Please provide a value either for {0} or {1}, but not both.</value>
+    <comment>error message; {0} &amp; {1} are mutually exclusive activities</comment>
   </data>
-  <data name="PassportActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a passport.</value>
+  <data name="ValidationOverloadGroup_Error" xml:space="preserve">
+    <value>Please provide values for both {0} and {1}.</value>
+    <comment>error message; {0} &amp; {1} are complementary properties</comment>
   </data>
-  <data name="PassportActivityDisplayName" xml:space="preserve">
-    <value>Passport</value>
+  <data name="BaiduOcrClientActivity_DisplayName" xml:space="preserve">
+    <value>Baidu OCR Client</value>
+    <comment>activity name</comment>
   </data>
-  <data name="HkMacauExitentrypermitActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a HK and Macau pass.</value>
+  <data name="BaiduOcrClientActivity_Description" xml:space="preserve">
+    <value>Injects BaiduOcrClient as IOcrClient to IObjectContainer passed from OcrScope.</value>
+    <comment>activity description</comment>
   </data>
-  <data name="HkMacauExitentrypermitActivityDisplayName" xml:space="preserve">
-    <value>HK and Macau Pass</value>
+  <data name="BaiduOcrClientActivity_ApiKey_Description" xml:space="preserve">
+    <value>API Key of Baidu OCR.</value>
   </data>
-  <data name="TaiwanExitentrypermitActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a Taiwan pass.</value>
+  <data name="BaiduOcrClientActivity_ApiKey_DisplayName" xml:space="preserve">
+    <value>API Key</value>
   </data>
-  <data name="TaiwanExitentrypermitActivityDisplayName" xml:space="preserve">
-    <value>Taiwan Pass</value>
+  <data name="BaiduOcrClientActivity_SecretKey_Description" xml:space="preserve">
+    <value>Secret Key of Baidu OCR.</value>
   </data>
-  <data name="TrainTicketActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a train ticket.</value>
-  </data>
-  <data name="TrainTicketActivityDisplayName" xml:space="preserve">
-    <value>Train Ticket</value>
-  </data>
-  <data name="BusinessLicenseActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a business license.</value>
-  </data>
-  <data name="BusinessLicenseActivityDisplayName" xml:space="preserve">
-    <value>Business License</value>
-  </data>
-  <data name="BankCardActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a bank card.</value>
-  </data>
-  <data name="BankCardActivityDisplayName" xml:space="preserve">
-    <value>Bank Card</value>
-  </data>
-  <data name="DrivingLicenseActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a driving license.</value>
-  </data>
-  <data name="DrivingLicenseActivityDisplayName" xml:space="preserve">
-    <value>Driving License</value>
-  </data>
-  <data name="VehicleLicenseActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a vehicle license.</value>
-  </data>
-  <data name="VehicleLicenseActivityDisplayName" xml:space="preserve">
-    <value>Vehicle License</value>
-  </data>
-  <data name="VehicleInvoiceActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a vehicle invoice.</value>
-  </data>
-  <data name="VehicleInvoiceActivityDisplayName" xml:space="preserve">
-    <value>Vehicle Invoice</value>
-  </data>
-  <data name="VehicleCertificateActivityDescription" xml:space="preserve">
-    <value>Returns the recognized values of a vehicle certificate.</value>
-  </data>
-  <data name="VehicleCertificateActivityDisplayName" xml:space="preserve">
-    <value>Vehicle Certificate</value>
+  <data name="BaiduOcrClientActivity_SecretKey_DisplayName" xml:space="preserve">
+    <value>Secret Key</value>
   </data>
 </root>

@@ -22,7 +22,7 @@ namespace Baidu.AI.Ocr.Activities.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Baidu.AI.Ocr.Activities.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,398 +61,191 @@ namespace Baidu.AI.Ocr.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The file path to the image for recognition..
+        ///   Looks up a localized string similar to Authentication.
         /// </summary>
-        internal static string BaiduOcrActivityImagePathDescription {
+        public static string Authentication_Category {
             get {
-                return ResourceManager.GetString("BaiduOcrActivityImagePathDescription", resourceCulture);
+                return ResourceManager.GetString("Authentication_Category", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ImagePath.
+        ///   Looks up a localized string similar to API Key of Baidu OCR..
         /// </summary>
-        internal static string BaiduOcrActivityImagePathDisplayName {
+        public static string BaiduOcrClientActivity_ApiKey_Description {
             get {
-                return ResourceManager.GetString("BaiduOcrActivityImagePathDisplayName", resourceCulture);
+                return ResourceManager.GetString("BaiduOcrClientActivity_ApiKey_Description", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The result of the recognition in the form of JSON..
+        ///   Looks up a localized string similar to API Key.
         /// </summary>
-        internal static string BaiduOcrActivityResultDescription {
+        public static string BaiduOcrClientActivity_ApiKey_DisplayName {
             get {
-                return ResourceManager.GetString("BaiduOcrActivityResultDescription", resourceCulture);
+                return ResourceManager.GetString("BaiduOcrClientActivity_ApiKey_DisplayName", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Result.
+        ///   Looks up a localized string similar to Injects BaiduOcrClient as IOcrClient to IObjectContainer passed from OcrScope..
         /// </summary>
-        internal static string BaiduOcrActivityResultDisplayName {
+        public static string BaiduOcrClientActivity_Description {
             get {
-                return ResourceManager.GetString("BaiduOcrActivityResultDisplayName", resourceCulture);
+                return ResourceManager.GetString("BaiduOcrClientActivity_Description", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Contains and authenticates all Baidu OCR activities..
+        ///   Looks up a localized string similar to Baidu OCR Client.
         /// </summary>
-        internal static string BaiduOcrScopeDescription {
+        public static string BaiduOcrClientActivity_DisplayName {
             get {
-                return ResourceManager.GetString("BaiduOcrScopeDescription", resourceCulture);
+                return ResourceManager.GetString("BaiduOcrClientActivity_DisplayName", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Baidu OCR Scope.
+        ///   Looks up a localized string similar to Secret Key of Baidu OCR..
         /// </summary>
-        internal static string BaiduOcrScopeDisplayName {
+        public static string BaiduOcrClientActivity_SecretKey_Description {
             get {
-                return ResourceManager.GetString("BaiduOcrScopeDisplayName", resourceCulture);
+                return ResourceManager.GetString("BaiduOcrClientActivity_SecretKey_Description", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a bank card..
+        ///   Looks up a localized string similar to Secret Key.
         /// </summary>
-        internal static string BankCardActivityDescription {
+        public static string BaiduOcrClientActivity_SecretKey_DisplayName {
             get {
-                return ResourceManager.GetString("BankCardActivityDescription", resourceCulture);
+                return ResourceManager.GetString("BaiduOcrClientActivity_SecretKey_DisplayName", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bank Card.
+        ///   Looks up a localized string similar to Common.
         /// </summary>
-        internal static string BankCardActivityDisplayName {
+        public static string Common_Category {
             get {
-                return ResourceManager.GetString("BankCardActivityDisplayName", resourceCulture);
+                return ResourceManager.GetString("Common_Category", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a birth certificate..
+        ///   Looks up a localized string similar to If set, continue executing the remaining activities even if the current activity has failed..
         /// </summary>
-        internal static string BirthCertificateActivityDescription {
+        public static string ContinueOnError_Description {
             get {
-                return ResourceManager.GetString("BirthCertificateActivityDescription", resourceCulture);
+                return ResourceManager.GetString("ContinueOnError_Description", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Birth Certificate.
+        ///   Looks up a localized string similar to ContinueOnError.
         /// </summary>
-        internal static string BirthCertificateActivityDisplayName {
+        public static string ContinueOnError_DisplayName {
             get {
-                return ResourceManager.GetString("BirthCertificateActivityDisplayName", resourceCulture);
+                return ResourceManager.GetString("ContinueOnError_DisplayName", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a business license..
+        ///   Looks up a localized string similar to Do.
         /// </summary>
-        internal static string BusinessLicenseActivityDescription {
+        public static string Do {
             get {
-                return ResourceManager.GetString("BusinessLicenseActivityDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Business License.
-        /// </summary>
-        internal static string BusinessLicenseActivityDisplayName {
-            get {
-                return ResourceManager.GetString("BusinessLicenseActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a driving license..
-        /// </summary>
-        internal static string DrivingLicenseActivityDescription {
-            get {
-                return ResourceManager.GetString("DrivingLicenseActivityDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Driving License.
-        /// </summary>
-        internal static string DrivingLicenseActivityDisplayName {
-            get {
-                return ResourceManager.GetString("DrivingLicenseActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a HK and Macau pass..
-        /// </summary>
-        internal static string HkMacauExitentrypermitActivityDescription {
-            get {
-                return ResourceManager.GetString("HkMacauExitentrypermitActivityDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to HK and Macau Pass.
-        /// </summary>
-        internal static string HkMacauExitentrypermitActivityDisplayName {
-            get {
-                return ResourceManager.GetString("HkMacauExitentrypermitActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a household register..
-        /// </summary>
-        internal static string HouseholdRegisterActivityDescription {
-            get {
-                return ResourceManager.GetString("HouseholdRegisterActivityDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Household Register.
-        /// </summary>
-        internal static string HouseholdRegisterActivityDisplayName {
-            get {
-                return ResourceManager.GetString("HouseholdRegisterActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of an ID Card. Front and back sides to be recognized separately..
-        /// </summary>
-        internal static string IdCardActivityDescription {
-            get {
-                return ResourceManager.GetString("IdCardActivityDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ID Card.
-        /// </summary>
-        internal static string IdCardActivityDisplayName {
-            get {
-                return ResourceManager.GetString("IdCardActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ID card side, front or back..
-        /// </summary>
-        internal static string IdCardSideDescription {
-            get {
-                return ResourceManager.GetString("IdCardSideDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to IdCardSide.
-        /// </summary>
-        internal static string IdCardSideDisplayName {
-            get {
-                return ResourceManager.GetString("IdCardSideDisplayName", resourceCulture);
+                return ResourceManager.GetString("Do", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Input.
         /// </summary>
-        internal static string Input {
+        public static string Input_Category {
             get {
-                return ResourceManager.GetString("Input", resourceCulture);
+                return ResourceManager.GetString("Input_Category", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please provide a value for {0}..
+        ///   Looks up a localized string similar to Options.
         /// </summary>
-        internal static string MetadataValidationError {
+        public static string Options_Category {
             get {
-                return ResourceManager.GetString("MetadataValidationError", resourceCulture);
+                return ResourceManager.GetString("Options_Category", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Output.
         /// </summary>
-        internal static string Output {
+        public static string Output_Category {
             get {
-                return ResourceManager.GetString("Output", resourceCulture);
+                return ResourceManager.GetString("Output_Category", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a passport..
+        ///   Looks up a localized string similar to Specifies the amount of time (in milliseconds) to wait for the activity to run before an error is thrown. The default value is 60000 (1 minute)..
         /// </summary>
-        internal static string PassportActivityDescription {
+        public static string Timeout_Description {
             get {
-                return ResourceManager.GetString("PassportActivityDescription", resourceCulture);
+                return ResourceManager.GetString("Timeout_Description", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Passport.
+        ///   Looks up a localized string similar to Timeout (milliseconds).
         /// </summary>
-        internal static string PassportActivityDisplayName {
+        public static string Timeout_DisplayName {
             get {
-                return ResourceManager.GetString("PassportActivityDisplayName", resourceCulture);
+                return ResourceManager.GetString("Timeout_DisplayName", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a quota invoice..
+        ///   Looks up a localized string similar to The activity timed out and was canceled..
         /// </summary>
-        internal static string QuotaInvoiceActivityDescription {
+        public static string Timeout_Error {
             get {
-                return ResourceManager.GetString("QuotaInvoiceActivityDescription", resourceCulture);
+                return ResourceManager.GetString("Timeout_Error", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Quota Invoice.
+        ///   Looks up a localized string similar to Please provide a value either for {0} or {1}, but not both..
         /// </summary>
-        internal static string QuotaInvoiceActivityDisplayName {
+        public static string ValidationExclusiveProperties_Error {
             get {
-                return ResourceManager.GetString("QuotaInvoiceActivityDisplayName", resourceCulture);
+                return ResourceManager.GetString("ValidationExclusiveProperties_Error", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a Taiwan pass..
+        ///   Looks up a localized string similar to Please provide values for both {0} and {1}..
         /// </summary>
-        internal static string TaiwanExitentrypermitActivityDescription {
+        public static string ValidationOverloadGroup_Error {
             get {
-                return ResourceManager.GetString("TaiwanExitentrypermitActivityDescription", resourceCulture);
+                return ResourceManager.GetString("ValidationOverloadGroup_Error", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Taiwan Pass.
+        ///   Looks up a localized string similar to Cannot be used outside of a {0}..
         /// </summary>
-        internal static string TaiwanExitentrypermitActivityDisplayName {
+        public static string ValidationScope_Error {
             get {
-                return ResourceManager.GetString("TaiwanExitentrypermitActivityDisplayName", resourceCulture);
+                return ResourceManager.GetString("ValidationScope_Error", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Taxi Receipt.
+        ///   Looks up a localized string similar to Please provide a value for {0}..
         /// </summary>
-        internal static string TaxiReceiptActivityDisplayName {
+        public static string ValidationValue_Error {
             get {
-                return ResourceManager.GetString("TaxiReceiptActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a taxi receipt..
-        /// </summary>
-        internal static string TaxiReceiptActivityescription {
-            get {
-                return ResourceManager.GetString("TaxiReceiptActivityescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a train ticket..
-        /// </summary>
-        internal static string TrainTicketActivityDescription {
-            get {
-                return ResourceManager.GetString("TrainTicketActivityDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Train Ticket.
-        /// </summary>
-        internal static string TrainTicketActivityDisplayName {
-            get {
-                return ResourceManager.GetString("TrainTicketActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Activity is only valid inside a Baidu OCR Scope..
-        /// </summary>
-        internal static string ValidationMessage {
-            get {
-                return ResourceManager.GetString("ValidationMessage", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a VAT invoice..
-        /// </summary>
-        internal static string VatInvoiceActivityDescription {
-            get {
-                return ResourceManager.GetString("VatInvoiceActivityDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to VAT Invoice.
-        /// </summary>
-        internal static string VatInvoiceActivityDisplayName {
-            get {
-                return ResourceManager.GetString("VatInvoiceActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a vehicle certificate..
-        /// </summary>
-        internal static string VehicleCertificateActivityDescription {
-            get {
-                return ResourceManager.GetString("VehicleCertificateActivityDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Vehicle Certificate.
-        /// </summary>
-        internal static string VehicleCertificateActivityDisplayName {
-            get {
-                return ResourceManager.GetString("VehicleCertificateActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a vehicle invoice..
-        /// </summary>
-        internal static string VehicleInvoiceActivityDescription {
-            get {
-                return ResourceManager.GetString("VehicleInvoiceActivityDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Vehicle Invoice.
-        /// </summary>
-        internal static string VehicleInvoiceActivityDisplayName {
-            get {
-                return ResourceManager.GetString("VehicleInvoiceActivityDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Returns the recognized values of a vehicle license..
-        /// </summary>
-        internal static string VehicleLicenseActivityDescription {
-            get {
-                return ResourceManager.GetString("VehicleLicenseActivityDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Vehicle License.
-        /// </summary>
-        internal static string VehicleLicenseActivityDisplayName {
-            get {
-                return ResourceManager.GetString("VehicleLicenseActivityDisplayName", resourceCulture);
+                return ResourceManager.GetString("ValidationValue_Error", resourceCulture);
             }
         }
     }

@@ -9,12 +9,12 @@
   <PropertyGroup>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Description>This package was generated using the UiPath VS Extension.</Description>
+    <Description>Baidu OCR Activities Pack for UiPath</Description>
     <Authors>Allen Lee</Authors>
     <Company>Allen Lee</Company>
     <Copyright>@ 2020 Allen Lee</Copyright>
     <PackageTags>UiPath Activit𝗒</PackageTags>
-    <PackageProjectUrl>https://docs.uipath.com/integrations/docs/how-to-create-activities</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/allenlooplee/BaiduOcrActivitiesPack</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/NuGet/Samples/master/PackageIconNuspecExample/icon.png</PackageIconUrl>
     <PackageIcon>packageIcon.png</PackageIcon>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -56,7 +56,7 @@
     <DocumentationFile>bin\$(Configuration)\Baidu.AI.Ocr.Activities.Design.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Cloud.Ocr.Activities" Version="0.2.0.412112820" />
+    <PackageReference Include="Cloud.Ocr.Activities" Version="0.2.0.415144644" />
   </ItemGroup>
 	<ItemGroup>
 		<Reference Include="System" />

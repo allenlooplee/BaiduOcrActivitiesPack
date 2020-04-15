@@ -47,7 +47,7 @@
     <Folder Include="SDK\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Cloud.Ocr.Activities" Version="0.2.0.412112820" />
+    <PackageReference Include="Cloud.Ocr.Activities" Version="0.2.0.415144644" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 </Project>

@@ -1,5 +1,6 @@
 ﻿using Cloud.Ocr.Contracts;
 using Cloud.Ocr.Models;
+using Cloud.Ocr.Activities;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -54,13 +55,15 @@ namespace Baidu.AI.Ocr.Models
 
         private JObject BaiduOcrIdCard(byte[] imageData, Dictionary<string, object> options)
         {
-            if (options == null || !options.ContainsKey("IdCardSide"))
+            var optionKey = nameof(IdCardActivity.CardSide);
+
+            if (options == null || !options.ContainsKey(optionKey))
             {
-                throw new InvalidOperationException("Please provide a value for IdCardSide.");
+                throw new InvalidOperationException($"Please provide a value for {optionKey}.");
             }
 
-            var idCardSide = options["IdCardSide"] as string;
-            return _baiduOcr.Idcard(imageData, idCardSide);
+            var idCardSide = (CardSide)options[optionKey];
+            return _baiduOcr.Idcard(imageData, idCardSide.ToString().ToLower());
         }
 
         private Baidu.Aip.Ocr.Ocr _baiduOcr;

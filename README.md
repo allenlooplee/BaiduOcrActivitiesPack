@@ -38,7 +38,7 @@
 
 ## 其他代码库和参考资料
 * [云可扩展OCR活动包](https://github.com/allenlooplee/CloudOcrActivitiesPack)
-* [百度文字识别API文档](https://ai.baidu.com/ai-doc/OCR/Ek3h7xypm)
+* [百度OCR API文档](https://ai.baidu.com/ai-doc/OCR/Ek3h7xypm)
 * [百度AI开放平台 .NET SDK](https://github.com/Baidu-AIP/dotnet-sdk)
 * [JSON.NET](https://github.com/JamesNK/Newtonsoft.Json)
 * [How to Create Activities](https://docs.uipath.com/integrations/docs/how-to-create-activities)

@@ -1,12 +1,12 @@
-# 百度文字识别活动包
+# 百度OCR活动包
 
 ![海报](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Poster.png)
 
-[百度AI开放平台](https://ai.baidu.com/)提供多种文字识别，如增值税发票、营业执照、驾驶证等，可以用于多种RPA流程，我也在《RPA开发与应用》（即将出版）中详细讲解了如何在UiPath Studio中识别增值税发票。本代码库的目的是打通UiPath和百度文字识别，让开发者能在UiPath Studio中通过简单的拖放和设置把百度文字识别用到相关流程中，从而加速开发过程。
+[百度AI开放平台](https://ai.baidu.com/)提供多种文字识别，如增值税发票、营业执照、驾驶证等，可以用于多种RPA流程，我也在《RPA开发与应用》（即将出版）中详细讲解了如何在UiPath Studio中识别增值税发票。本代码库的目的是打通UiPath和百度OCR，让开发者能在UiPath Studio中通过简单的拖放和设置把百度OCR用到相关流程中，从而加速开发过程。
 
 ## 快速开始
 
-在UiPath Studio中使用百度文字识别活动包可以遵循以下步骤：
+在UiPath Studio中使用百度OCR活动包可以遵循以下步骤：
 1. **创建项目**：使用[templates/CloudOcrBasicProcess](https://github.com/allenlooplee/CloudOcrActivitiesPack/tree/master/templates/CloudOcrBasicProcess)模版创建OCR流程，你可以查阅[它的文档](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/docs/cloud-ocr-basic-process.md)。
 2. **安装活动包**：在GitHub Releases中下载[v0.3.0 pre-release](https://github.com/allenlooplee/BaiduOcrActivitiesPack/releases/tag/v0.3.0)，并在UiPath Studio的Manage Packages中安装。
 3. **配置密钥**：在百度AI开放平台上创建文字识别应用，并把API Key和Secret Key保存到[config/baidu_ocr_config.xlsx](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/templates/CloudOcrBasicProcess/config/baidu_ocr_config.xlsx)。

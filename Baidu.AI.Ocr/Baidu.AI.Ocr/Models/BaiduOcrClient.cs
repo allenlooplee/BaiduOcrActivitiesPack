@@ -57,13 +57,15 @@ namespace Baidu.AI.Ocr.Models
         {
             var optionKey = nameof(IdCardActivity.CardSide);
 
-            if (options == null || !options.ContainsKey(optionKey))
+            // cardSide now has a default value Front.
+            // If the value of cardSide is provided in options, then overwrite the default value.
+            var cardSide = CardSide.Front;
+            if (options != null && options.ContainsKey(optionKey))
             {
-                throw new InvalidOperationException($"Please provide a value for {optionKey}.");
+                cardSide = (CardSide)options[optionKey];
             }
 
-            var idCardSide = (CardSide)options[optionKey];
-            return _baiduOcr.Idcard(imageData, idCardSide.ToString().ToLower());
+            return _baiduOcr.Idcard(imageData, cardSide.ToString().ToLower());
         }
 
         private Baidu.Aip.Ocr.Ocr _baiduOcr;

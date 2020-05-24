@@ -2,7 +2,7 @@
 
 ![海报](https://github.com/allenlooplee/BaiduOcrActivitiesPack/blob/master/docs/images/Poster.png)
 
-[百度AI开放平台](https://ai.baidu.com/)提供多种文字识别，如增值税发票、营业执照、驾驶证等，可以用于多种RPA流程，我也在《RPA开发与应用》（即将出版）中详细讲解了如何在UiPath Studio中识别增值税发票。本代码库的目的是打通UiPath和百度OCR，让开发者能在UiPath Studio中通过简单的拖放和设置把百度OCR用到相关流程中，从而加速开发过程。
+[百度AI开放平台](https://ai.baidu.com/)提供多种文字识别，如增值税发票、营业执照、驾驶证等，可以用于多种RPA流程，我也在[《RPA开发与应用》](https://github.com/allenlooplee/RPABook)（即将出版）中详细讲解了如何在UiPath Studio中识别增值税发票。本代码库的目的是打通UiPath和百度OCR，让开发者能在UiPath Studio中通过简单的拖放和设置把百度OCR用到相关流程中，从而加速开发过程。
 
 ## 快速开始
 

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Category" xml:space="preserve">
-    <value>Baidu.OCR</value>
+    <value>Cloud OCR.Clients</value>
     <comment>category</comment>
   </data>
   <data name="Collection" xml:space="preserve">

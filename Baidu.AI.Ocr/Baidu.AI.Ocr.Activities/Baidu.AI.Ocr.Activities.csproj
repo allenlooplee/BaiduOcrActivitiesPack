@@ -10,7 +10,7 @@
     <DocumentationFile>bin\$(Configuration)\Baidu.AI.Ocr.Activities.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Cloud.Ocr.Activities" Version="0.2.0.415144644" />
+    <PackageReference Include="Cloud.Ocr.Activities" Version="0.2.0" />
   </ItemGroup>
 	<ItemGroup>
 		<Reference Include="System" />

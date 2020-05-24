@@ -8,7 +8,7 @@
 
 在UiPath Studio中使用百度OCR活动包可以遵循以下步骤：
 1. **创建项目**：使用[templates/CloudOcrBasicProcess](https://github.com/allenlooplee/CloudOcrActivitiesPack/tree/master/templates/CloudOcrBasicProcess)模版创建OCR流程，你可以查阅[它的文档](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/docs/cloud-ocr-basic-process.md)。
-2. **安装活动包**：在GitHub Releases中下载[v0.3.0 pre-release](https://github.com/allenlooplee/BaiduOcrActivitiesPack/releases/tag/v0.3.0)，并在UiPath Studio的Manage Packages中安装。
+2. **安装活动包**：打开UiPath Studio的Manage Packages，在[nuget.org](https://api.nuget.org/v3/index.json)中搜索并安装Baidu.AI.Ocr.Activities。
 3. **配置密钥**：在百度AI开放平台上创建文字识别应用，并把API Key和Secret Key保存到[config/baidu_ocr_config.xlsx](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/templates/CloudOcrBasicProcess/config/baidu_ocr_config.xlsx)。
 4. **加载密钥**: 使用[snippets/LoadBaiduOcrConfig.xaml](https://github.com/allenlooplee/CloudOcrActivitiesPack/blob/master/snippets/LoadBaiduOcrConfig.xaml)代码片段从上述配置文件加载密钥。
 5. **使用活动**：把你想使用的OCR活动从Activities面板拖到OCR Scope活动中。
